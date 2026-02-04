@@ -60,7 +60,7 @@ export default function Menu() {
                 </li> */}
                   <li className="menu-item position-relative">
                     <Link href="/" className="fw_500">
-                       Home
+                       Home home
                     </Link>
                 </li>
                   <li className="menu-item position-relative">

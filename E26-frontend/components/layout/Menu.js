@@ -153,7 +153,7 @@ export default function Menu() {
                 </li>
                  <li className="menu-item position-relative">
                     <Link href="/works" className="fw_500">
-                        Protfolio
+                        Portfolio
                     </Link>
                 </li>
                  <li className="menu-item position-relative">

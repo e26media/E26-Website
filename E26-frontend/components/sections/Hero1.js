@@ -2,6 +2,7 @@
 import Link from "next/link"
 import VideoPopup from "../elements/VideoPopup"
 
+
 export default function Hero1() {
     return (
         <>

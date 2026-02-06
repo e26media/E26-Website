@@ -139,6 +139,9 @@ p {
 .pra-clr {
     color: white !important;
 }
+#fqa{
+    color:#004f39 !important
+}
 
 .theme-border {
     border: 1px solid var(--theme) !important;
@@ -1138,7 +1141,7 @@ footer {
 }
 
 .breadcrumnd-banner {
-    background: url(../img/banner/breadcrumnd-bg.png) no-repeat center center;
+    background: url(../img/E26media/breadcrumnd-bg.png) no-repeat center center;
     background-size: cover;
     padding: 220px 2px 144px;
 }
@@ -3450,7 +3453,7 @@ input.main-search-input::placeholder {
 
 .accordion-single .header-area button {
     border: unset !important;
-    color: var(--white);
+    color: #004f39;
     padding-right: 8%;
 }
 
@@ -3494,7 +3497,7 @@ input.main-search-input::placeholder {
 
 .faq .header-area button::before {
     content: "";
-    background-color: var(--bg2);
+    background-color:#004f39;
     width: 38px;
     min-width: 38px;
     height: 38px;
@@ -3535,7 +3538,7 @@ input.main-search-input::placeholder {
     font-family: "FontAwesome";
     transform: rotate(90deg);
     font-weight: 700;
-    color: var(--theme);
+    color: white;
 }
 
 .service-tabing-wrap .images-remove-area {
@@ -5237,6 +5240,11 @@ input.main-search-input::placeholder {
 
 .footer-version-two .footer-widger-inner {
     gap: 130px;
+}
+@media (max-width: 768px) {
+  .footer-version-two  {
+    border-radius: 30px 30px 0 0 !important;
+  }
 }
 
 .footer-version-two .box2 {

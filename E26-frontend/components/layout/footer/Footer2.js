@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function Footer2() {
     return (
-        <>
+        <section style={{backgroundColor:'white'}}>
 
             <footer className="footer-version-two " style={{backgroundColor:'#004f39' ,cornerShape:"round",borderRadius:'60px 60px 0 0',}}>
                 <div className="footer-topversion-two pt-20 pb-20">
@@ -201,6 +201,6 @@ export default function Footer2() {
                 </div>
             </footer>
 
-        </>
+        </section>
     )
 }

@@ -11,12 +11,12 @@ export default function Faq() {
         <>
 
             <div >
-                <section className="Faqs-section  pb-space">
+                <section className="Faqs-section  pb-space" style={{background: "linear-gradient(to top, #ffffff 50%, #004f39 100%)"}}>
                     <div className="container">
                         <div className="faqs-title text-center mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-9 mb-sm-8 mb-7">
-                            <Link href="/blog-details" className="radius-btn cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5">
+                            {/* <Link href="/blog-details" className="radius-btn cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5">
                                 FAQ’S
-                            </Link>
+                            </Link> */}
                             <h2 className="stitle">
                                 Frequently asked <span className="fw-400">questions</span>
                             </h2>
@@ -27,13 +27,13 @@ export default function Faq() {
                                     <div className="accordion-section">
                                         <div className={`accordion-single mb-xxl-4 mb-4 py-xxl-7 py-xl-6 py-lg-4 py-3 px-xxl-8 px-xl-7 px-lg-6 px-4 ${isAccordion === 1 ? "active" : ""}`}>
                                             <h5 className="header-area " onClick={() => handleAccordion(1)}>
-                                                <button className="accordion-btn d-flex align-items-center    text-start d-flex position-relative w-100" type="button">
+                                                <button className="accordion-btn d-flex align-items-center    text-start d-flex position-relative w-100" type="button" >
                                                     How long should a business plan be?
                                                 </button>
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 1 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr"  id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -50,7 +50,7 @@ export default function Faq() {
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 2 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr"  id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -67,7 +67,7 @@ export default function Faq() {
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 3 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr"  id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -84,7 +84,7 @@ export default function Faq() {
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 4 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr"  id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -107,7 +107,7 @@ export default function Faq() {
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 5 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr" id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -124,7 +124,7 @@ export default function Faq() {
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 6 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr"  id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -141,7 +141,7 @@ export default function Faq() {
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 7 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr"  id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -158,7 +158,7 @@ export default function Faq() {
                                             </h5>
                                             <div className="content-area" style={{ display: `${isAccordion == 8 ? "block" : "none"}` }}>
                                                 <div className="content-body pt-4">
-                                                    <p className="pra-clr">
+                                                    <p className="pra-clr"  id='fqa'>
                                                         Nullam faucibus eleifend mi eu varius. Integer vel tincidunt massa, quis
                                                         semper odio. Mauris et mollis quam. Nullam
                                                         fringilla erat id ante commodo sodales. In maximus ultrices euismod.
@@ -175,6 +175,9 @@ export default function Faq() {
                 </section>
 
             </div>
+
+           
+
         </>
     )
 }

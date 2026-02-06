@@ -32,14 +32,14 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                     </div>
                 </div>
                 {/*Element*/}
-                <img src="/assets/img/element/cmn-dost.png" alt="img" className="cmn-dots" />
+                <img src="/assets/img/E26media/cmn-dost.png" alt="img" className="cmn-dots" />
                 <div className="cmn-svg-shape cmn-svg">
                     <svg width={211} height={211} viewBox="0 0 211 211" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M153.353 98.3617V190.413H210V1H20.5872V57.6468H112.638L2 168.285L42.7149 209L153.353 98.3617Z" stroke="url(#paint0_linear_6584_3026)" strokeWidth={2} />
                         <defs>
                             <linearGradient id="paint0_linear_6584_3026" x1="416.867" y1="-216.267" x2="8.49998" y2="192.1" gradientUnits="userSpaceOnUse">
-                                <stop offset={2} stopColor="#E3FF04" />
-                                <stop offset={1} stopColor="#FF7425" stopOpacity={0} />
+                                <stop offset={2} stopColor="#004f39" />
+                                <stop offset={1} stopColor="#ffff" stopOpacity={0} />
                             </linearGradient>
                         </defs>
                     </svg>

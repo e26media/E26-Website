@@ -13,7 +13,7 @@ Version: 1.0.0
     --black: #000;
     --white: #fff;
     --spantext: #757575;
-    --theme: #E3FF04;
+    --theme: #004f39;
     --bg1: #161616;
     --bg2: #1b1b1b;
     --bg3: #fff;
@@ -40,6 +40,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+   
 }
 
 ul {
@@ -136,7 +137,7 @@ p {
 }
 
 .pra-clr {
-    color: #bebebe !important;
+    color: white !important;
 }
 
 .theme-border {
@@ -328,7 +329,7 @@ span {
     padding: 16px 19px;
     color: var(--pra-clr);
     font-size: 16px;
-    border: 1px solid var(--border1);
+    border: 1px solid white;
     background: transparent;
     width: 100%;
 }
@@ -355,7 +356,7 @@ span {
 }
 
 .common-form .getin-touch:hover {
-    border-color: var(--theme);
+    border-color: white;
     color: var(--theme);
 }
 
@@ -368,7 +369,8 @@ span {
 }
 
 .white-clr {
-    color: var(--white);
+    /* color: var(--white); */
+    color: #004f39;
 }
 
 .whitebg {
@@ -376,7 +378,7 @@ span {
 }
 
 .theme-clr {
-    color: var(--theme);
+    color: white;
 }
 
 .bg1-clr {
@@ -528,17 +530,19 @@ footer {
 }
 
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 6px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #004f39;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: white;
+    border-radius: 20px;
+    
 }
 
 /* Handle on hover */
@@ -738,7 +742,8 @@ footer {
 
 @media (max-width: 991px) {
     .cmn-fixed {
-        background: var(--bg1) !important;
+        /* background: var(--bg1) !important; */
+        background: white;
         border-bottom: unset;
         z-index: 9999 !important;
     }
@@ -801,7 +806,8 @@ footer {
     font-size: 16px !important;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--white);
+    /* color: var(--white); */
+    color: #004f39;
 }
 
 @media (max-width: 1199px) {
@@ -885,10 +891,12 @@ footer {
         text-wrap: nowrap;
         transition: 0.8s;
         display: initial !important;
-        background: var(--bg1);
+        /* background: var(--bg1); */
+        background: #ffffff;
         z-index: 10;
         pointer-events: none;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        box-shadow: rgba(32, 42, 32, 0.2) 0px 8px 24px;
+        
     }
 
     .header-section .main-navbar .custom-nav .sub-menu .sub-menu {
@@ -976,7 +984,8 @@ footer {
     width: 50px;
     min-width: 50px;
     height: 50px;
-    background: var(--bg1);
+    background: #004f39;
+    /* background: var(--bg1); */
 }
 
 @media (max-width: 991px) {
@@ -984,6 +993,7 @@ footer {
         width: 32px;
         min-width: 32px;
         height: 32px;
+        display: none !important;
     }
 
     .header-section .remove-clickbg-adding i {
@@ -2221,6 +2231,8 @@ footer {
 
 .protfolio-solution-item .thumb {
     width: 100%;
+    /* border: #004f39 1px solid;
+    border-radius: 2px; */
 }
 
 .protfolio-solution-item .thumb .mission-v4-btn {
@@ -3395,7 +3407,7 @@ input.main-search-input::placeholder {
 }
 
 #progress i {
-    color: var(--black);
+    color: white;
 }
 
 #progress #valiu {
@@ -4055,10 +4067,11 @@ input.main-search-input::placeholder {
     font-weight: 700;
     line-height: 85px;
     text-transform: uppercase;
+    color:#004f39
 }
 
 .scrolling-wrap .comm .text-custom-storke {
-    -webkit-text-stroke: 1px rgb(255, 247, 247);
+    -webkit-text-stroke: 1px rgb(0 79 57);
     -webkit-text-fill-color: transparent;
 }
 
@@ -4527,7 +4540,9 @@ input.main-search-input::placeholder {
     width: 1px;
     height: 100%;
     display: block;
-    background: #292929;
+    background: #004f39;
+    display:none;
+    /* line line */
 }
 
 .line-shape span::before,
@@ -4550,7 +4565,7 @@ input.main-search-input::placeholder {
     bottom: 0;
     left: 0;
     background: var(--theme);
-    box-shadow: rgba(228, 235, 242, 0.2) 0px 8px 24px;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     clip-path: polygon(51% 8%, 68% 15%, 66% 40%, 60% 78%, 56% 100%, 46% 100%, 42% 84%, 38% 56%, 34% 17%);
@@ -5147,7 +5162,8 @@ input.main-search-input::placeholder {
 }
 
 .flink-items:hover {
-    color: var(--theme) !important;
+    color: white !important;
+    /* color: var(--theme) !important; */
 }
 
 .flink-items:hover .ani-icons {
@@ -5155,7 +5171,7 @@ input.main-search-input::placeholder {
 }
 
 .flink-items:hover .ani-icons i {
-    color: var(--theme) !important;
+    color: white !important;
 }
 
 .foote-formv1 {

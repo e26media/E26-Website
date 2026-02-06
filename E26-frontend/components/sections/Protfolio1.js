@@ -30,26 +30,26 @@ export default function Protfolio1() {
     return (
         <>
 
-            <section className="protfolio-solution pb-space " style={{marginBottom:'-130px'}}>
+            <section className="protfolio-solution pb-space  " style={{backgroundColor:'white',marginTop:'-30px',marginBottom:'-20px'}}>
                 <div className="container">
                     <div className="swiper protfolio-solutionwrap">
                         <Swiper {...swiperOptions} className="swiper-wrapper">
                             <SwiperSlide>
                                 <div className="protfolio-solution-item">
                                     <div className="thumb position-relative mb-xxl-7 mb-5">
-                                        <img src="/assets/img/banner/solution1.png" alt="img" />
+                                        <img src="https://xstarnextjs.vercel.app/assets/img/banner/solution1.png" alt="img" />
                                         <Link href="/service" className="mission-v4-btn d-center">
                                             <span className="rot60">
-                                                <i className="fa-solid fa-arrow-up" />
+                                                <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
                                             </span>
                                         </Link>
                                     </div>
                                     <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                                        <img src="/assets/img/element/arrow-cmn.png" alt="img" />
+                                        <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
-                                            <h4 className="white-clr">
+                                            <h4 className="white-clr" >
                                                 Amazing Design
-                                                <span className="d-block">
+                                                <span className="d-block" style={{color:"#004f39"}}>
                                                     and Solutions
                                                 </span>
                                             </h4>
@@ -63,16 +63,16 @@ export default function Protfolio1() {
                                         <img src="/assets/img/banner/solution1.png" alt="img" />
                                         <Link href="/service" className="mission-v4-btn d-center">
                                             <span className="rot60">
-                                                <i className="fa-solid fa-arrow-up" />
+                                               <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
                                             </span>
                                         </Link>
                                     </div>
                                     <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                                        <img src="/assets/img/element/arrow-cmn.png" alt="img" />
+                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
                                             <h4 className="white-clr">
                                                 Amazing Design
-                                                <span className="d-block">
+                                                <span className="d-block" style={{color:"#004f39"}}>
                                                     and Solutions
                                                 </span>
                                             </h4>
@@ -83,19 +83,19 @@ export default function Protfolio1() {
                             <SwiperSlide>
                                 <div className="protfolio-solution-item">
                                     <div className="thumb position-relative mb-xxl-7 mb-5">
-                                        <img src="/assets/img/banner/solution1.png" alt="img" />
+                                        <img src="https://xstarnextjs.vercel.app/assets/img/banner/solution1.png" alt="img" />
                                         <Link href="/service" className="mission-v4-btn d-center">
                                             <span className="rot60">
-                                                <i className="fa-solid fa-arrow-up" />
+                                                <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
                                             </span>
                                         </Link>
                                     </div>
                                     <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                                        <img src="/assets/img/element/arrow-cmn.png" alt="img" />
+                                        <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
                                             <h4 className="white-clr">
                                                 Amazing Design
-                                                <span className="d-block">
+                                                <span className="d-block" style={{color:"#004f39"}}>
                                                     and Solutions
                                                 </span>
                                             </h4>
@@ -106,19 +106,19 @@ export default function Protfolio1() {
                             <SwiperSlide>
                                 <div className="protfolio-solution-item">
                                     <div className="thumb position-relative mb-xxl-7 mb-5">
-                                        <img src="/assets/img/banner/solution1.png" alt="img" />
+                                      <img src="https://xstarnextjs.vercel.app/assets/img/banner/solution1.png" alt="img" />
                                         <Link href="/service" className="mission-v4-btn d-center">
                                             <span className="rot60">
-                                                <i className="fa-solid fa-arrow-up" />
+                                                <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
                                             </span>
                                         </Link>
                                     </div>
                                     <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
-                                        <img src="/assets/img/element/arrow-cmn.png" alt="img" />
+                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
                                             <h4 className="white-clr">
                                                 Amazing Design
-                                                <span className="d-block">
+                                                <span className="d-block" style={{color:"#004f39"}}>
                                                     and Solutions
                                                 </span>
                                             </h4>

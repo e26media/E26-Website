@@ -18,7 +18,7 @@ export default function Team1() {
     return (
         <>
 
-            <section className="team-version01 pt-space pb-space">
+            <section className="team-version01 pt-space pb-space" >
                 <div className="container position-relative">
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="pricing-title">

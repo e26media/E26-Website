@@ -38,7 +38,7 @@ export default function Menu() {
                     <Link href="//about">about</Link>
                 </li>
             </ul> */}
-            <ul className="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5">
+            <ul className="custom-nav d-lg-flex d-grid gap-xxl-10 gap-xl-8 gap-lg-5 gap-md-2 gap-2 pt-lg-0 pt-5  ">
                 {/* <li className="menu-item position-relative">
                     <button className="position-relative ps-5  white-clr fw_500 cus-z1" onClick={() => handleAccordion(1)}>
                         Home

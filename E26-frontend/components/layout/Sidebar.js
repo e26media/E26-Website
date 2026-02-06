@@ -3,13 +3,13 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
     return (
         <>
 
-            <div className={`subside-barmenu ${isSidebar ? "active" : ""}`}>
+            <div className={`subside-barmenu ${isSidebar ? "active" : ""} `} >
                 <div className="remove-click d-flex justify-content-center align-items-center" onClick={handleSidebar}>
                     <i className="fas fa-times" />
                 </div>
                 <div className="sub-contact-wrapper d-grid">
                     <Link href="/" className="side-logo">
-                        <img src="/assets/img/logo/logo.png" alt="img" />
+                         <img className="w-100" src="/assets/img/E26media/e26media-logo.png" alt="logo" />
                     </Link>
                     <p>
                         Neque porro quisquam est, qui dolorem ipsum quia dolor sit consectetur, aliquam quaerats voluptatem. Ut

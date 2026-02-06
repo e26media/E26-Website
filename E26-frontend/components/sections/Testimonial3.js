@@ -35,8 +35,21 @@ export default function Testimonial3() {
     return (
         <>
 
-            <section className="testimonial-version02-section pb-space position-relative">
+            <section className="testimonial-version02-section pb-space position-relative mt-10" >
+                
                 <div className="container position-relative">
+                    <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
+                        <div className="pricing-title">
+                           
+                            <h2 className="stitle" >
+                                Check Our <span className="fw-400" >Company</span>
+                                <span className="d-block fw-semibold" >
+                                    Inside Story
+                                </span>
+                            </h2>
+                        </div>
+                       
+                    </div>
                     <div className="swiper testimonial-version03 position-relative">
                         <Swiper {...swiperOptions} className="swiper-wrapper">
                             <SwiperSlide>

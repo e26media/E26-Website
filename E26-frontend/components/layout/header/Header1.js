@@ -12,7 +12,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                             <div className="d-lg-flex flex-xl-nowrap flex-wrap align-items-center justify-content-lg-between">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <Link href="/" className="brand-logo">
-                                        <img className="w-100" src="/assets/img/logo/logo.png" alt="logo" />
+                                        <img className="w-100" src="/assets/img/E26media/e26media.png" alt="logo" />
                                     </Link>
                                     <div className="d-flex align-items-center gap-xxl-5 gap-5">
                                         <Link href="/javascript:void(0)" className="search-trigger search-icon d-lg-none d-block">

@@ -4,14 +4,14 @@ import Menu from "../Menu"
 export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handleSidebar, isSearch, handleSearch }) {
     return (
         <>
-            <header className={`header-section cmn-fixed hb-border py-lg-0 py-6 ${scroll ? "animated fadeInDown header-fixed" : ""}`}>
+            <header className={`header-section cmn-fixed hb-border py-lg-0 py-6 bg-white ${scroll ? "animated fadeInDown header-fixed" : ""}`}>
                 <div className="container">
                     <div className="main-navbar">
                         <nav className="navbar-custom">
                             <div className="d-lg-flex flex-xl-nowrap flex-wrap align-items-center justify-content-lg-between">
                                 <div className="d-flex align-items-center justify-content-between">
                                     <Link href="/" className="brand-logo">
-                                        <img className="w-100" src="assets/img/logo/logo.png" alt="logo" />
+                                        <img className="w-100" src="/assets/img/E26media/e26media-logo.png" alt="logo" />
                                     </Link>
                                     <button className={`navbar-toggle-btn d-block d-lg-none ${isMobileMenu ? "open" : ""}`} type="button" onClick={handleMobileMenu}>
                                         <span />
@@ -42,8 +42,8 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
                                             +208-555-0112
                                         </span>
                                     </Link> */}
-                                    <div className="remove-click remove-clickbg-adding d-center m-auto" onClick={handleSidebar}>
-                                        <i className="fas fa-bars" />
+                                    <div className="remove-click remove-clickbg-adding d-center m-auto " onClick={handleSidebar} style={{ display: `${isMobileMenu ? "block" : "none"}` }}>
+                                        <i className="fas fa-bars " />
                                     </div>
                                 </div>
                             </div>

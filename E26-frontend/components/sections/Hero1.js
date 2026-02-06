@@ -7,7 +7,7 @@ export default function Hero1() {
     return (
         <>
             
-            <section className="hero-section-version1 position-relative">
+            <section className="hero-section-version1 position-relative " >
                 <div className="container">
                     <div className="row g-5">
                         <div className="hero-v1-content position-relative">
@@ -37,11 +37,11 @@ export default function Hero1() {
                                         <img src="/assets/img/client/c3.png" alt="img" />
                                     </Link>
                                 </div> */}
-                                <div className="brandin-wrap d-block">
+                                {/* <div className="brandin-wrap d-block">
                                     <h4 className="white-clr brading-text">
                                         1k + Brands Trust Us
                                     </h4>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ export default function Hero1() {
                     </div>
                 </div> */}
                 {/* Element */}
-                <img src="/assets/img/element/arrow-right-storke.png" alt="img" className="hero-arrow" />
+                <img src="/assets/img/E26media/elements/arrow-right-storke.png" alt="img" className="hero-arrow" />
             </section>
         </>
     )

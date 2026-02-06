@@ -16,6 +16,7 @@ import TextSLider2 from "@/components/sections/TextSLider2"
 import TextSLider3 from "@/components/sections/TextSLider3"
 import TextSLider7 from "@/components/sections/TextSLider7"
 import Watch1 from "@/components/sections/Watch1"
+import About4 from "@/components/sections/About4"
 
 
 export default function Home() {
@@ -29,9 +30,9 @@ export default function Home() {
 
                     <Hero1 />
                     <TextSLider7/>
-                      <Protfolio1 />
-
-                    <Ourclints/>
+                 <Protfolio1 />
+                <Ourclints/>
+                   <About4/>
                     <Blog4 />
                     <Testimonial3 />
 
@@ -45,7 +46,7 @@ export default function Home() {
                     {/* <TextSLider2 /> */}
                     {/* <Testimonial1 /> */}
                     {/* <Blog1 /> */}
-                    <TextSLider3 />
+                    {/* <TextSLider3 /> */}
                 </div>
             </Layout>
         </>

@@ -1,7 +1,7 @@
 
 import Link from "next/link"
 
-export default function Blog4() {
+export default function Video () {
     return (
         <>
 

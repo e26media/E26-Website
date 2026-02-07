@@ -76,7 +76,7 @@ export default function StudyGrid() {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
-                                    <img src="/assets/img/blog/blogv4-1.png" alt="img" className="w-100 overflow-hidden" />
+                                    <img src="https://xstarnextjs.vercel.app/assets/img/blog/mblog3.png" alt="img" className="w-100 overflow-hidden" />
                                     <Link href="/blog-details" className="blog-v4-btn d-center">
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up" />
@@ -108,7 +108,7 @@ export default function StudyGrid() {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
-                                    <img src="/assets/img/blog/blogv4-2.png" alt="img" className="w-100 overflow-hidden" />
+                                    <img src="https://xstarnextjs.vercel.app/assets/img/blog/mblog3.png" alt="img" className="w-100 overflow-hidden" />
                                     <Link href="/blog-details" className="blog-v4-btn d-center">
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up" />
@@ -138,7 +138,7 @@ export default function StudyGrid() {
                         <div className="col-lg-4 col-md-6 col-sm-6">
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
-                                    <img src="/assets/img/blog/blogv4-3.png" alt="img" className="w-100 overflow-hidden" />
+                                    <img src="https://xstarnextjs.vercel.app/assets/img/blog/mblog3.png" alt="img" className="w-100 overflow-hidden" />
                                     <Link href="/blog-details" className="blog-v4-btn d-center">
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up" />
@@ -168,7 +168,7 @@ export default function StudyGrid() {
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
-                                    <img src="/assets/img/blog/blogv4-3.png" alt="img" className="w-100 overflow-hidden" />
+                                    <img src="https://xstarnextjs.vercel.app/assets/img/blog/mblog3.png" alt="img" className="w-100 overflow-hidden" />
                                     <Link href="/blog-details" className="blog-v4-btn d-center">
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up" />
@@ -198,7 +198,7 @@ export default function StudyGrid() {
                         <div className="col-lg-6 col-md-6 col-sm-6">
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
-                                    <img src="/assets/img/blog/blogv4-3.png" alt="img" className="w-100 overflow-hidden" />
+                                    <img src="https://xstarnextjs.vercel.app/assets/img/blog/mblog3.png " alt="img" className="w-100 overflow-hidden" />
                                     <Link href="/blog-details" className="blog-v4-btn d-center">
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up" />

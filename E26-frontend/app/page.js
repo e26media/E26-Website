@@ -17,6 +17,8 @@ import TextSLider3 from "@/components/sections/TextSLider3"
 import TextSLider7 from "@/components/sections/TextSLider7"
 import Watch1 from "@/components/sections/Watch1"
 import About4 from "@/components/sections/About4"
+import Ourclints2 from "@/components/layout/footer/Ourclints2"
+import Blog5 from "@/components/sections/Blog5"
 
 
 export default function Home() {
@@ -31,9 +33,10 @@ export default function Home() {
                     <Hero1 />
                     <TextSLider7/>
                  <Protfolio1 />
-                <Ourclints/>
+                {/* <Ourclints/> */}
+                <Ourclints2/>
                    <About4/>
-                    <Blog4 />
+                    <Blog5 />
                     <Testimonial3 />
 
 

@@ -2,7 +2,8 @@
 
 import Layout from "@/components/layout/Layout";
 import Project1 from "@/components/sections/Project1";
-import Video from "@/components/sections/video";
+import StepWorking2 from "@/components/sections/StepWorking2";
+// import Video from "@/components/sections/video";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -144,6 +145,7 @@ export default function Courses() {
                     </div>
                 </section>
 
+<StepWorking2/>
 
                  <Project1 />
 

@@ -33,9 +33,9 @@ const swiperOptions = {
 
 export default function Testimonial3() {
     return (
-        <>
+        <div >
 
-            <section className="testimonial-version02-section pb-space position-relative mt-10" >
+            <section className="testimonial-version02-section pb-space position-relative "  style={{ background: "linear-gradient(to top, #ffffff 70%, #004f39 100%)"}}>
                 
                 <div className="container position-relative">
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
@@ -54,11 +54,11 @@ export default function Testimonial3() {
                         <Swiper {...swiperOptions} className="swiper-wrapper">
                             <SwiperSlide>
                                 <div className="testimonial-zero-oneitem testimonial-zero-oneitemv3 d-flex align-items-center gap-xxl-6 gap-xl-4 gap-3">
-                                    <img src="/assets/img/testimonial/vector01.png" alt="arrow" className="testi-arrow" />
+                                    <img src="/assets/img/E26media/elements/line.png" alt="arrow" className="testi-arrow" />
                                     <div className="content">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-3">
                                             <div className="savannah">
-                                                <img src="/assets/img/testimonial/testiv3-1.png" alt="img" />
+                                                <img src="https://xstarnextjs.vercel.app/assets/img/testimonial/testiv3-2.png" alt="img" />
                                             </div>
                                             <div className="desig">
                                                 <h6 className="white-clr mb-1">
@@ -86,11 +86,11 @@ export default function Testimonial3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="testimonial-zero-oneitem testimonial-zero-oneitemv3 d-flex align-items-center gap-xxl-6 gap-xl-4 gap-3">
-                                    <img src="/assets/img/testimonial/vector01.png" alt="arrow" className="testi-arrow" />
+                                    <img src="/assets/img/E26media/elements/line.png" alt="arrow" className="testi-arrow" />
                                     <div className="content">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-3">
                                             <div className="savannah">
-                                                <img src="/assets/img/testimonial/testiv3-3.png" alt="img" />
+                                                <img src="https://xstarnextjs.vercel.app/assets/img/testimonial/testiv3-2.png" alt="img" />
                                             </div>
                                             <div className="desig">
                                                 <h6 className="white-clr mb-1">
@@ -118,11 +118,11 @@ export default function Testimonial3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="testimonial-zero-oneitem testimonial-zero-oneitemv3 d-flex align-items-center gap-xxl-6 gap-xl-4 gap-3">
-                                    <img src="/assets/img/testimonial/vector01.png" alt="arrow" className="testi-arrow" />
+                                    <img src="/assets/img/E26media/elements/line.png" alt="arrow" className="testi-arrow" />
                                     <div className="content">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-3">
                                             <div className="savannah">
-                                                <img src="/assets/img/testimonial/testiv3-2.png" alt="img" />
+                                               <img src="https://xstarnextjs.vercel.app/assets/img/testimonial/testiv3-2.png" alt="img" />
                                             </div>
                                             <div className="desig">
                                                 <h6 className="white-clr mb-1">
@@ -150,11 +150,11 @@ export default function Testimonial3() {
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="testimonial-zero-oneitem testimonial-zero-oneitemv3 d-flex align-items-center gap-xxl-6 gap-xl-4 gap-3">
-                                    <img src="/assets/img/testimonial/vector01.png" alt="arrow" className="testi-arrow" />
+                                     <img src="/assets/img/E26media/elements/line.png" alt="arrow" className="testi-arrow" />
                                     <div className="content">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-3">
                                             <div className="savannah">
-                                                <img src="/assets/img/testimonial/testiv3-3.png" alt="img" />
+                                             <img src="https://xstarnextjs.vercel.app/assets/img/testimonial/testiv3-2.png" alt="img" />
                                             </div>
                                             <div className="desig">
                                                 <h6 className="white-clr mb-1">
@@ -184,6 +184,6 @@ export default function Testimonial3() {
                     </div>
                 </div>
             </section>
-        </>
+        </div>
     )
 }

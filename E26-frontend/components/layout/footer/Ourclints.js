@@ -82,12 +82,107 @@ const clients = [
     { id: 9, img: "/assets/img/E26media/clints/clints-logo1.png" },
     { id: 10, img: "/assets/img/E26media/clints/clints-logo1.png" },
 ]
+const swiperOptions = {
+    modules: [Autoplay, Pagination, Navigation],
+    spaceBetween: 30,
+    speed: 1500,
+    loop: true,
+    autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+    },
+
+    breakpoints: {
+        1199: {
+            slidesPerView: 5,
+        },
+        991: {
+            slidesPerView: 4,
+        },
+        767: {
+            slidesPerView: 4,
+        },
+        500: {
+            slidesPerView: 3,
+        },
+        320: {
+            slidesPerView: 3,
+        },
+    },
+}
+
 
 export default function Ourclints() {
     return (
         <>
        <div className="home-blog-version4   bg1-clr position-relative">
                        <div className="container zindex position-relative">
+
+  <div className="footer-client mb-20 ">
+                            <h5 className="trusted white">
+                                Our Trusted Clients
+                            </h5>
+                            <div className="swiper trusted-inner">
+                                <Swiper {...swiperOptions} className="swiper-wrapper">
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c1.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c3.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c4.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c5.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c1.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c3.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c4.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c5.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                </Swiper>
+                            </div>
+                        </div>
+
+
                            <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                                <div className="pricing-title">
                                   

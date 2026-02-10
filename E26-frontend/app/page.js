@@ -42,7 +42,7 @@ export default function Home() {
 
                     {/* <Product1 /> */}
                     {/* <Service1 /> */}
-                    <TextSLider1 />
+                    <TextSLider7 />
                     {/* <CaseStudy1 /> */}
                     {/* <Watch1 /> */}
                     <Team1 />

@@ -280,7 +280,7 @@ span {
     font-weight: 700;
     font-family: var(--jakarta);
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #454750;
+    -webkit-text-stroke-color: #004f39;
     color: transparent;
     display: block;
 }
@@ -5494,9 +5494,32 @@ input.main-search-input::placeholder {
     border-radius: 20px;
   }
 }
+#mainbox-pages {
+  background-color: #004f39 !important;
+  border-radius: 10px;
+  margin: 2px;
+ 
+}
+/* Mobile Screen Only */
+@media (max-width: 768px) {
+  #mainbox-pages {
+    border-radius: 20px;
+  }
+}
 .mainbox{
     background-color: white !important;
     margin-top: -30px;
+}
+.mainbox-pages{
+    background-color: white !important;
+    margin-top: -10px;
+}
+
+@media (max-width: 768px) {
+  #textslider {
+  margin-bottom: 60px;
+  background-color: white;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

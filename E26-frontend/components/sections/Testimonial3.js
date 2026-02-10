@@ -33,15 +33,15 @@ const swiperOptions = {
 
 export default function Testimonial3() {
     return (
-        <div >
+        <div style={{ background: "linear-gradient(to top, #ffffff 1%, #004f39 100%)"}}>
 
-            <section className="testimonial-version02-section pb-space position-relative "  style={{ background: "linear-gradient(to top, #ffffff 70%, #004f39 100%)"}}>
+            <section className="testimonial-version02-section pb-space position-relative "  style={{ background: "linear-gradient(to bottom, #ffffff 1%, #004f39 100%),"}}>
                 
                 <div className="container position-relative">
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="pricing-title">
                            
-                            <h2 className="stitle" >
+                            <h2 className="stitle mt-10"  >
                                 Check Our <span className="fw-400" >Company</span>
                                 <span className="d-block fw-semibold" >
                                     Inside Story

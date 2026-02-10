@@ -53,32 +53,7 @@ export default function Ourclints2() {
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c1.png" alt="img" />
+                                            <img src="/assets/img/client/c2.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
@@ -88,7 +63,32 @@ export default function Ourclints2() {
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c3.png" alt="img" />
+                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                        </Link>
+                                    </SwiperSlide>
+                                    <SwiperSlide>
+                                        <Link href="/javascript:void(0)">
+                                            <img src="/assets/img/client/c2.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>

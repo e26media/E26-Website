@@ -140,17 +140,25 @@ export default function Menu() {
                 
                 <li className="menu-item position-relative">
                     <button className="position-relative  ps-5 fw_500 white-clr cus-z1" onClick={() => handleAccordion(3)}>
-                        Courses
+                        Career 
                     </button>
                     <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 3 ? "block" : "none"}` }}>
                         <li className="menu-link py-1">
-                            <Link href="/study-grid" className="fw_500 white-clr">Case Study</Link>
+                            <Link href="/Courses" className="fw_500 white-clr">Internship</Link>
                         </li>
                         <li className="menu-link py-1">
-                            <Link href="/study-details" className="fw_500 white-clr">Case Study Details</Link>
+                            <Link href="/Courses" className="fw_500 white-clr">Courses</Link>
+                        </li>
+                        <li className="menu-link py-1">
+                            <Link href="/Courses" className="fw_500 white-clr">Career</Link>
                         </li>
                     </ul>
                 </li>
+                 {/* <li className="menu-item position-relative">
+                    <Link href="/Courses" className="fw_500">
+                        Courses
+                    </Link>
+                </li> */}
                  <li className="menu-item position-relative">
                     <Link href="/works" className="fw_500">
                         Portfolio

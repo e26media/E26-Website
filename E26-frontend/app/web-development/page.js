@@ -79,14 +79,14 @@ export default function StudyGrid() {
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
                                     <img src="https://xstarnextjs.vercel.app/assets/img/blog/blogv4-2.png" alt="img" className="w-100 overflow-hidden" />
-                                    <Link href="/blog-details" className="blog-v4-btn d-center">
+                                    <Link href="/business-website" className="blog-v4-btn d-center">
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up" />
                                         </span>
                                     </Link>
                                 </div>
                                 <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
+                                    {/* <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                                         <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-1">
                                             Creative
                                             <span className="rot60 d-inline-block ml-10">
@@ -96,10 +96,11 @@ export default function StudyGrid() {
                                         <span className="bspan-clr">
                                             MARCH 24, 2024
                                         </span>
-                                    </div>
+                                    </div> */}
                                     <h5>
-                                        <Link href="/blog-details" id="white-clr">
-                                            Transforming Challenges into
+                                        <Link href="/business-website" id="white-clr">
+                                           Business & corporate websites
+
                                         </Link>
                                     </h5>
                                 </div>
@@ -116,7 +117,7 @@ export default function StudyGrid() {
                                     </Link>
                                 </div>
                                 <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
+                                    {/* <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                                         <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-1">
                                             Creative
                                             <span className="rot60 d-inline-block ml-10">
@@ -126,10 +127,11 @@ export default function StudyGrid() {
                                         <span className="bspan-clr">
                                             MARCH 24, 2024
                                         </span>
-                                    </div>
+                                    </div> */}
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Design Inspiration Where to Find
+                                            E-commerce websites
+
                                         </Link>
                                     </h5>
                                 </div>
@@ -146,7 +148,7 @@ export default function StudyGrid() {
                                     </Link>
                                 </div>
                                 <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
+                                    {/* <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                                         <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-1">
                                             Creative
                                             <span className="rot60 d-inline-block ml-10">
@@ -156,10 +158,10 @@ export default function StudyGrid() {
                                         <span className="bspan-clr">
                                             MARCH 24, 2024
                                         </span>
-                                    </div>
+                                    </div> */}
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Creating new working in the digital
+                                         Portfolio & landing pages
                                         </Link>
                                     </h5>
                                 </div>
@@ -176,7 +178,7 @@ export default function StudyGrid() {
                                     </Link>
                                 </div>
                                 <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
+                                    {/* <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                                         <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-1">
                                             Creative
                                             <span className="rot60 d-inline-block ml-10">
@@ -186,10 +188,11 @@ export default function StudyGrid() {
                                         <span className="bspan-clr">
                                             MARCH 24, 2024
                                         </span>
-                                    </div>
+                                    </div> */}
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Creating new working in the digital
+                                           Custom CMS development
+
                                         </Link>
                                     </h5>
                                 </div>
@@ -206,7 +209,7 @@ export default function StudyGrid() {
                                     </Link>
                                 </div>
                                 <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
+                                    {/* <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
                                         <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-1">
                                             Creative
                                             <span className="rot60 d-inline-block ml-10">
@@ -216,10 +219,11 @@ export default function StudyGrid() {
                                         <span className="bspan-clr">
                                             MARCH 24, 2024
                                         </span>
-                                    </div>
+                                    </div> */}
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Creating new working in the digital
+                                           Website maintenance & support
+
                                         </Link>
                                     </h5>
                                 </div>

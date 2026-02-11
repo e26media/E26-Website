@@ -48,9 +48,9 @@ export default function Protfolio1() {
                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
                                             <h4 className="white-clr" >
-                                                Amazing Design
+                                               Tabiaa
                                                 <span className="d-block" style={{color:"#004f39"}}>
-                                                    and Solutions
+                                                    Nature's Product
                                                 </span>
                                             </h4>
                                         </Link>
@@ -71,10 +71,10 @@ export default function Protfolio1() {
                                          <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
                                             <h4 className="white-clr">
-                                                Amazing Design
-                                                <span className="d-block" style={{color:"#004f39"}}>
+                                                Tawakkal Muslim
+                                                {/* <span className="d-block" style={{color:"#004f39"}}>
                                                     and Solutions
-                                                </span>
+                                                </span> */}
                                             </h4>
                                         </Link>
                                     </div>
@@ -94,10 +94,10 @@ export default function Protfolio1() {
                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
                                             <h4 className="white-clr">
-                                                Amazing Design
-                                                <span className="d-block" style={{color:"#004f39"}}>
+                                               Nava Nirman
+                                                {/* <span className="d-block" style={{color:"#004f39"}}>
                                                     and Solutions
-                                                </span>
+                                                </span> */}
                                             </h4>
                                         </Link>
                                     </div>
@@ -117,9 +117,106 @@ export default function Protfolio1() {
                                          <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
                                         <Link href="/service" className="cont">
                                             <h4 className="white-clr">
-                                                Amazing Design
-                                                <span className="d-block" style={{color:"#004f39"}}>
+                                              Wafa Enterprises
+
+                                                {/* <span className="d-block" style={{color:"#004f39"}}>
                                                     and Solutions
+                                                </span> */}
+                                            </h4>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="protfolio-solution-item">
+                                    <div className="thumb position-relative mb-xxl-7 mb-5">
+                                      <img src="https://xstarnextjs.vercel.app/assets/img/banner/solution1.png" alt="img" />
+                                        <Link href="/service" className="mission-v4-btn d-center">
+                                            <span className="rot60">
+                                                <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
+                                            </span>
+                                        </Link>
+                                    </div>
+                                    <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
+                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
+                                        <Link href="/service" className="cont">
+                                            <h4 className="white-clr">
+                                            Abhiruchi 
+
+                                                {/* <span className="d-block" style={{color:"#004f39"}}>
+                                                    and Solutions
+                                                </span> */}
+                                            </h4>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="protfolio-solution-item">
+                                    <div className="thumb position-relative mb-xxl-7 mb-5">
+                                      <img src="https://xstarnextjs.vercel.app/assets/img/banner/solution1.png" alt="img" />
+                                        <Link href="/service" className="mission-v4-btn d-center">
+                                            <span className="rot60">
+                                                <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
+                                            </span>
+                                        </Link>
+                                    </div>
+                                    <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
+                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
+                                        <Link href="/service" className="cont">
+                                            <h4 className="white-clr">
+                                            Al Mirath
+
+                                                {/* <span className="d-block" style={{color:"#004f39"}}>
+                                                    and Solutions
+                                                </span> */}
+                                            </h4>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="protfolio-solution-item">
+                                    <div className="thumb position-relative mb-xxl-7 mb-5">
+                                      <img src="https://xstarnextjs.vercel.app/assets/img/banner/solution1.png" alt="img" />
+                                        <Link href="/service" className="mission-v4-btn d-center">
+                                            <span className="rot60">
+                                                <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
+                                            </span>
+                                        </Link>
+                                    </div>
+                                    <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
+                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
+                                        <Link href="/service" className="cont">
+                                            <h4 className="white-clr">
+                                           Chetanas
+
+                                                {/* <span className="d-block" style={{color:"#004f39"}}>
+                                                    and Solutions
+                                                </span> */}
+                                            </h4>
+                                        </Link>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <div className="protfolio-solution-item">
+                                    <div className="thumb position-relative mb-xxl-7 mb-5">
+                                      <img src="https://xstarnextjs.vercel.app/assets/img/banner/solution1.png" alt="img" />
+                                        <Link href="/service" className="mission-v4-btn d-center">
+                                            <span className="rot60">
+                                                <i className="fa-solid fa-arrow-up " style={{color:"white"}}/>
+                                            </span>
+                                        </Link>
+                                    </div>
+                                    <div className="content bb-border pb-xxl-7 pb-5 d-flex align-items-center gap-xxl-7 gap-xl-5 gap-4">
+                                         <img src="/assets/img/E26media/elements/arrow-right-storke.png"  alt="img" />
+                                        <Link href="/service" className="cont">
+                                            <h4 className="white-clr">
+                                           Melkar
+
+                                                <span className="d-block" style={{color:"#004f39"}}>
+                                                    Builders & Developers Pvt.ltd
                                                 </span>
                                             </h4>
                                         </Link>

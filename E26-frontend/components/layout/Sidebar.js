@@ -56,7 +56,7 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                           <li> <Link href="/#" className="d-center p-2 rounded-circle" style={{background:"rgba(255,255,255,0.1)", transition:"0.3s"}}> <i className="fab fa-youtube text-white"></i> </Link> </li> 
                           </ul>
 
-                    <Link href="/contact" className="d-flex cmn-btn cmn-border justify-content-center fw-500 align-items-center gap-2 py-2 px-3 rounded mt-4" style={{ backgroundColor:"white", color:"#004f39", fontWeight:"600", transition:"all 0.3s ease", }} > <span className="icons"> <i className="fas fa-arrow-up" style={{color:"#004f39"}} /> </span> <span className="get-text" style={{color:"#    "}}>Let's Talk</span> </Link>
+                    <Link href="/contact" className="d-flex cmn-btn cmn-border justify-content-center fw-500 align-items-center gap-2 py-2 px-3 rounded mt-4" style={{ backgroundColor:"white", color:"#004f39", fontWeight:"600", transition:"all 0.3s ease", }} > <span className="icons"> <i className="fas fa-arrow-up" style={{color:"#004f39"}} /> </span> <span className="get-text" style={{color:"#004f39"}}>Let's Talk</span> </Link>
                 </div>
             </div>
 

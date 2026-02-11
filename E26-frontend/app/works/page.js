@@ -1,170 +1,104 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-export default function StudyGrid() {
 
+export default function StudyGrid() {
     return (
         <>
+            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="our Works">
+                
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="our Works">
-                <section className="case-study pt-space pb-space">
-                    <div className="container">
-                        <div className="row g-xxl-7 g-xl-6 g-6">
-                            <div className="col-lg-12 col-md-6" data-aos="zoom-in-left" data-aos-duration={1400}>
-                                <div className="blog-widget-item bb-border pb-xxl-7 pb-xl-6 pb-4">
-                                    <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/case/study-grid1.png" alt="img" className="w-100 overflow-hidden" />
-                                    </div>
-                                    <div className="blog-cont">
-                                        <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                            <Link href="/study-details" className="radius-btn cmn-border radius100 py-xxl-2 py-2 px-xxl-4 px-3 theme-clr style-2">
-                                                Creative
-                                                <span className="rot60 d-inline-block ml-10">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <h5>
-                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                A Simple Social Media Marketing Checklist
-                                                <span className="rot60">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6" data-aos="zoom-in-left" data-aos-duration={1600}>
-                                <div className="blog-widget-item bb-border pb-xxl-7 pb-xl-6 pb-4">
-                                    <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/case/study-grid2.png" alt="img" className="w-100 overflow-hidden" />
-                                    </div>
-                                    <div className="blog-cont">
-                                        <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                            <Link href="/study-details" className="radius-btn cmn-border radius100 py-xxl-2 py-2 px-xxl-4 px-3 theme-clr style-2">
-                                                Branding
-                                                <span className="rot60 d-inline-block ml-10">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <h5>
-                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                Transforming Challenges into Opportunities
-                                                <span className="rot60">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6" data-aos="zoom-in-left" data-aos-duration={1800}>
-                                <div className="blog-widget-item bb-border pb-xxl-7 pb-xl-6 pb-4">
-                                    <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/case/study-grid3.png" alt="img" className="w-100 overflow-hidden" />
-                                    </div>
-                                    <div className="blog-cont">
-                                        <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                            <Link href="/study-details" className="radius-btn cmn-border radius100 py-xxl-2 py-2 px-xxl-4 px-3 theme-clr style-2">
-                                                Creative
-                                                <span className="rot60 d-inline-block ml-10">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <h5>
-                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                varius suscipit lectus. Suspendisse
-                                                <span className="rot60">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6" data-aos="zoom-in-left" data-aos-duration={1900}>
-                                <div className="blog-widget-item bb-border pb-xxl-7 pb-xl-6 pb-4">
-                                    <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/case/study-grid4.png" alt="img" className="w-100 overflow-hidden" />
-                                    </div>
-                                    <div className="blog-cont">
-                                        <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                            <Link href="/study-details" className="radius-btn cmn-border radius100 py-xxl-2 py-2 px-xxl-4 px-3 theme-clr style-2">
-                                                Branding
-                                                <span className="rot60 d-inline-block ml-10">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <h5>
-                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                Internet tend to repeat predefined
-                                                <span className="rot60">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6" data-aos="zoom-in-left" data-aos-duration={2100}>
-                                <div className="blog-widget-item bb-border pb-xxl-7 pb-xl-6 pb-4">
-                                    <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/case/study-grid5.png" alt="img" className="w-100 overflow-hidden" />
-                                    </div>
-                                    <div className="blog-cont">
-                                        <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                            <Link href="/study-details" className="radius-btn cmn-border radius100 py-xxl-2 py-2 px-xxl-4 px-3 theme-clr style-2">
-                                                Creative
-                                                <span className="rot60 d-inline-block ml-10">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <h5>
-                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                available, but the majority have
-                                                <span className="rot60">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6" data-aos="zoom-in-left" data-aos-duration={2200}>
-                                <div className="blog-widget-item bb-border pb-xxl-7 pb-xl-6 pb-4">
-                                    <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/case/study-grid6.png" alt="img" className="w-100 overflow-hidden" />
-                                    </div>
-                                    <div className="blog-cont">
-                                        <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                            <Link href="/study-details" className="radius-btn cmn-border radius100 py-xxl-2 py-2 px-xxl-4 px-3 theme-clr style-2">
-                                                Branding
-                                                <span className="rot60 d-inline-block ml-10">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </div>
-                                        <h5>
-                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                Transforming Challenges into Opportunities
-                                                <span className="rot60">
-                                                    <i className="fas fa-arrow-up theme-clr" />
-                                                </span>
-                                            </Link>
-                                        </h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                {/* Custom Responsive Grid */}
+                <div className="parent" >
+                    <div className="div1">
+                        <img src="https://www.thezeroagency.in/dashboard/uploads/1752388194_bap_.jpg" alt="Grid 1" />
+                        <h2>Creative Strategy</h2>
                     </div>
-                </section>
+                    <div className="div2">
+                        <img src="https://www.thezeroagency.in/dashboard/uploads/1752599657_mash_al.jpg" alt="Grid 2" />
+                        <h2>Branding Excellence</h2>
+                    </div>
+                    <div className="div2">
+                        <img src="https://www.thezeroagency.in/dashboard/uploads/1752599657_mash_al.jpg" alt="Grid 2" />
+                        <h2>Branding Excellence</h2>
+                    </div>
 
+                    <div className="div1">
+                        <img src="https://www.thezeroagency.in/dashboard/uploads/1752388194_bap_.jpg" alt="Grid 1" />
+                        <h2>Creative Strategy</h2>
+                    </div>
+                    
+                    
+                   
+                   
+                   
+                </div>
             </Layout>
+
+            <style>
+                {`
+                .parent {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-rows: repeat(20, auto);
+                    gap: 20px;
+                    margin: 40px auto;
+                    max-width: 1200px;
+                    padding: 0 16px;
+                }
+
+                .parent div {
+                    background-color: #004f39;
+                    border: 3px solid #ffff;
+                    border-radius: 10px;
+                    overflow: hidden;
+                    text-align: center;
+                    padding-bottom: 12px;
+                }
+
+                .parent img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                    display: block;
+                    border-bottom: 2px solid #ffff;
+                }
+
+                .parent h2 {
+                    font-size: 1.2rem;
+                    color: #ffff;
+                    margin-top: 10px;
+                    font-weight: 600;
+                }
+
+                /* Grid positions */
+                .div1 { grid-column: span 4; grid-row: span 4; }
+                .div2 { grid-column: span 2; grid-row: span 3; grid-row-start: 5; }
+                .div4 { grid-column: span 2; grid-row: span 3; grid-column-start: 3; grid-row-start: 5; }
+                .div5 { grid-column: span 4; grid-row: span 4; grid-row-start: 8; }
+                .div6 { grid-column: span 2; grid-row: span 3; grid-row-start: 12; }
+                .div7 { grid-column: span 2; grid-row: span 3; grid-column-start: 3; grid-row-start: 12; }
+                .div8 { grid-column: span 4; grid-row: span 4; grid-row-start: 15; }
+
+                /* Responsive adjustments */
+                @media (max-width: 992px) {
+                    .parent {
+                        grid-template-columns: repeat(2, 1fr);
+                        grid-template-rows: auto;
+                    }
+                    .div1, .div5, .div8 { grid-column: span 2; }
+                    .div2, .div4, .div6, .div7 { grid-column: span 2; }
+                }
+
+                @media (max-width: 576px) {
+                    .parent {
+                        grid-template-columns: 1fr;
+                        gap: 16px;
+                    }
+                    .parent div { grid-column: span 1; }
+                    .parent h2 { font-size: 1rem; }
+                }
+                `}
+            </style>
         </>
     )
 }

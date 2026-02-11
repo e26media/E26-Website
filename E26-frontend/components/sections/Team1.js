@@ -23,7 +23,7 @@ export default function Team1() {
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="pricing-title">
                             <div className="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 mt-10" style={{color:'#004f39'}}>
-                                oUR experts
+                                Our Careers
                             </div>
                             <h2 className="stitle" style={{color:'#004f39'}}>
                                 Meet our <span className="fw-400" style={{color:'#004f39'}}>creative</span> staff
@@ -41,7 +41,7 @@ export default function Team1() {
                             <div className="team-card01 tilt overflow-hidden">
                                 <div className="thumb overflow-hidden w-100 position-relative mb-xxl-7 mb-xl-6 mb-5">
                                     <img src="/assets/img/team/team2.png" alt="img" className="w-100" />
-                                    <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
+                                    {/* <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
                                         <li>
                                             <Link href="/#" className="text-center d-center">
                                                 <svg width={11} height={20} viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,14 +70,14 @@ export default function Team1() {
                                                 </svg>
                                             </Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                                 <div className="content">
-                                    <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
+                                    {/* <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
                                         Programmer
-                                    </span>
+                                    </span> */}
                                     <h5 className=" whitehover" style={{color:'#004f39'}}>
-                                        <Link href="/team-details"  style={{color:'#004f39'}}>Leslie Alexander</Link>
+                                        <Link href="/team-details"  style={{color:'#004f39'}}>Digital marketing</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ export default function Team1() {
                             <div className="team-card01 tilt overflow-hidden">
                                 <div className="thumb overflow-hidden w-100 position-relative mb-xxl-7 mb-xl-6 mb-5">
                                     <img src="/assets/img/team/team2.png" alt="img" className="w-100" />
-                                    <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
+                                    {/* <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
                                         <li>
                                             <Link href="/#" className="text-center d-center">
                                                 <svg width={11} height={20} viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,14 +115,14 @@ export default function Team1() {
                                                 </svg>
                                             </Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                                <div className="content">
-                                    <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
+                                    {/* <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
                                         Programmer
-                                    </span>
+                                    </span> */}
                                     <h5 className=" whitehover" style={{color:'#004f39'}}>
-                                        <Link href="/team-details"  style={{color:'#004f39'}}>Leslie Alexander</Link>
+                                        <Link href="/team-details"  style={{color:'#004f39'}}>Full Stack Development</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -131,7 +131,7 @@ export default function Team1() {
                             <div className="team-card01 tilt overflow-hidden">
                                 <div className="thumb overflow-hidden w-100 position-relative mb-xxl-7 mb-xl-6 mb-5">
                                     <img src="/assets/img/team/team2.png" alt="img" className="w-100" />
-                                    <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
+                                    {/* <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
                                         <li>
                                             <Link href="/#" className="text-center d-center">
                                                 <svg width={11} height={20} viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -160,14 +160,14 @@ export default function Team1() {
                                                 </svg>
                                             </Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                                 <div className="content">
-                                    <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
+                                    {/* <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
                                         Programmer
-                                    </span>
+                                    </span> */}
                                     <h5 className=" whitehover" style={{color:'#004f39'}}>
-                                        <Link href="/team-details"  style={{color:'#004f39'}}>Leslie Alexander</Link>
+                                        <Link href="/team-details"  style={{color:'#004f39'}}>Data Science</Link>
                                     </h5>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@ export default function Team1() {
                             <div className="team-card01 tilt overflow-hidden">
                                 <div className="thumb overflow-hidden w-100 position-relative mb-xxl-7 mb-xl-6 mb-5">
                                     <img src="/assets/img/team/team2.png" alt="img" className="w-100" />
-                                    <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
+                                    {/* <ul className="common-social d-flex align-items-center justify-content-center gap-xxl-3 gap-xl-2 gap-1">
                                         <li>
                                             <Link href="/#" className="text-center d-center">
                                                 <svg width={11} height={20} viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -205,14 +205,14 @@ export default function Team1() {
                                                 </svg>
                                             </Link>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                                 <div className="content">
-                                    <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
+                                    {/* <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3" style={{color:'#004f39'}}>
                                         Programmer
-                                    </span>
+                                    </span> */}
                                     <h5 className=" whitehover" style={{color:'#004f39'}}>
-                                        <Link href="/team-details"  style={{color:'#004f39'}}>Leslie Alexander</Link>
+                                        <Link href="/team-details"  style={{color:'#004f39'}}>Graphic Design</Link>
                                     </h5>
                                 </div>
                             </div>

@@ -1,7 +1,10 @@
 'use client'
 import Layout from "@/components/layout/Layout"
+import About4 from "@/components/sections/About4"
 import Blog4 from "@/components/sections/Blog4"
+import Blog5 from "@/components/sections/Blog5"
 import StepWorking1 from "@/components/sections/StepWorking1"
+import StepWorking2 from "@/components/sections/StepWorking2"
 import Testimonial3 from "@/components/sections/Testimonial3"
 import Link from "next/link"
 import { Tilt } from 'react-tilt'
@@ -45,9 +48,14 @@ export default function About() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={3} breadcrumbTitle="About Agency">
+            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="About Agency">
                 <div>
-                    <section className="pt-space pb-space section-bg">
+                      <About4/>
+                        <Blog5 />
+                        <StepWorking2/>
+                        <br/>
+                          {/* <Testimonial3/> */}
+                    {/* <section className="pt-space pb-space section-bg">
                         <div className="container">
                             <div className="row g-6 justify-content-between">
                                 <div className="col-lg-6 pe-lg-14">
@@ -58,7 +66,6 @@ export default function About() {
                                         <div className="about-small-thumb w-100 mt-xxl-10 mt-xl-7 mt-lg-5 mt-3" data-aos="zoom-in" data-aos-duration={1800}>
                                             <img src="/assets/img/about/about-s2.png" alt="img" className="w-100" />
                                         </div>
-                                        {/*- About Arrow */}
                                         <img src="/assets/img/element/arrow-right-storke.png" alt="img" className="about-tumb-arrow" />
                                     </div>
                                 </div>
@@ -82,36 +89,14 @@ export default function About() {
                                               <span style={{color:"#D1EA06",fontWeight:"bold"}}>Why Brands Choose E26 Media</span> - ROI-focused digital strategies - Strong technical & creative team - AI-
 integrated workflows - Transparent process & reporting - Proven experience across industries
                                             </p>
-                                            {/* <div className="result-progress-wrap" data-aos="zoom-in-up" data-aos-duration={1800}>
-                                                <div className="progres-item mb-xxl-6 mb-xl-5 mb-4">
-                                                    <div className="d-flex align-items-center justify-content-between mb-xxl-4 mb-3">
-                                                        <span className="conssub">
-                                                            Branding Design
-                                                        </span>
-                                                        <span className="cons">88%</span>
-                                                    </div>
-                                                    <div className="progress-solving">
-                                                        <div className="progress-bar" />
-                                                    </div>
-                                                </div>
-                                                <div className="progres-item">
-                                                    <div className="d-flex align-items-center justify-content-between mb-xxl-4 mb-3">
-                                                        <span className="conssub">
-                                                            Business
-                                                        </span>
-                                                        <span className="cons">96%</span>
-                                                    </div>
-                                                    <div className="progress-solving">
-                                                        <div className="progress-bar" />
-                                                    </div>
-                                                </div>
-                                            </div> */}
+                                            
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
+                    </section> */}
+                  
                     {/* Cmn About End */}
                     {/* Cmn Team stafs Start */}
                     {/* <section className="team-staft pt-space pb-space">
@@ -482,11 +467,11 @@ integrated workflows - Transparent process & reporting - Proven experience acros
 
 
                     {/* career path */}
-                      <Blog4 />
+                    
                     {/* career path */}
 
                     {/* our workflow */}
-                    <StepWorking1/>
+                    {/* <StepWorking1/> */}
                     {/* our workflow */}
 
 
@@ -632,7 +617,7 @@ integrated workflows - Transparent process & reporting - Proven experience acros
 
 
                     {/* reviews  */}
-                    <Testimonial3/>
+                  
                     {/* reviews  */}
                 </div>
 

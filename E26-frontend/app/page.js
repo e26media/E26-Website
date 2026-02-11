@@ -19,6 +19,7 @@ import Watch1 from "@/components/sections/Watch1"
 import About4 from "@/components/sections/About4"
 import Ourclints2 from "@/components/layout/footer/Ourclints2"
 import Blog5 from "@/components/sections/Blog5"
+import OurPartner from "@/components/layout/footer/OurPartner"
 
 
 export default function Home() {
@@ -46,6 +47,7 @@ export default function Home() {
                     {/* <CaseStudy1 /> */}
                     {/* <Watch1 /> */}
                     <Team1 />
+                    <OurPartner/>
                     {/* <TextSLider2 /> */}
                     {/* <Testimonial1 /> */}
                     {/* <Blog1 /> */}

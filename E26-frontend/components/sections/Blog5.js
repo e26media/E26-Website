@@ -46,13 +46,13 @@ export default function Blog5() {
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>
                                         </Link>
-                                        <span className="bspan-clr">
+                                        {/* <span className="bspan-clr">
                                             MARCH 24, 2024
-                                        </span>
+                                        </span> */}
                                     </div>
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Transforming Challenges into
+                                            Website Development
                                         </Link>
                                     </h5>
                                 </div>
@@ -76,13 +76,13 @@ export default function Blog5() {
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>
                                         </Link>
-                                        <span className="bspan-clr">
+                                        {/* <span className="bspan-clr">
                                             MARCH 24, 2024
-                                        </span>
+                                        </span> */}
                                     </div>
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Design Inspiration Where to Find
+                                          Software Development
                                         </Link>
                                     </h5>
                                 </div>
@@ -106,13 +106,13 @@ export default function Blog5() {
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>
                                         </Link>
-                                        <span className="bspan-clr">
+                                        {/* <span className="bspan-clr">
                                             MARCH 24, 2024
-                                        </span>
+                                        </span> */}
                                     </div>
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Design Inspiration Where to Find
+                                           Mobile App Development
                                         </Link>
                                     </h5>
                                 </div>
@@ -136,13 +136,13 @@ export default function Blog5() {
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>
                                         </Link>
-                                        <span className="bspan-clr">
+                                        {/* <span className="bspan-clr">
                                             MARCH 24, 2024
-                                        </span>
+                                        </span> */}
                                     </div>
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Design Inspiration Where to Find
+                                           Automation Services
                                         </Link>
                                     </h5>
                                 </div>
@@ -166,13 +166,13 @@ export default function Blog5() {
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>
                                         </Link>
-                                        <span className="bspan-clr">
+                                        {/* <span className="bspan-clr">
                                             MARCH 24, 2024
-                                        </span>
+                                        </span> */}
                                     </div>
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Design Inspiration Where to Find
+                                          Digital Marketing
                                         </Link>
                                     </h5>
                                 </div>
@@ -196,13 +196,13 @@ export default function Blog5() {
                                                 <i className="fas fa-arrow-up theme-clr" />
                                             </span>
                                         </Link>
-                                        <span className="bspan-clr">
+                                        {/* <span className="bspan-clr">
                                             MARCH 24, 2024
-                                        </span>
+                                        </span> */}
                                     </div>
                                     <h5>
                                         <Link href="/blog-details" id="white-clr">
-                                            Creating new working in the digital
+                                         Content, Creative & Design
                                         </Link>
                                     </h5>
                                 </div>

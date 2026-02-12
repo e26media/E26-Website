@@ -150,7 +150,7 @@ export default function Menu() {
                             <Link href="/Courses" className="fw_500 white-clr">Courses</Link>
                         </li>
                         <li className="menu-link py-1">
-                            <Link href="/Courses" className="fw_500 white-clr">Career</Link>
+                            <Link href="/Career" className="fw_500 white-clr">Career</Link>
                         </li>
                     </ul>
                 </li>

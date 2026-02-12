@@ -53,54 +53,45 @@ export default function Ourclints2() {
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/1.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/2.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/3.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/4.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/5.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/6.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/7.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c2.png" alt="img" />
+                                            <img src="/assets/img/E26media/clints/8.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c4.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/client/c5.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
+                                   
                                 </Swiper>
                             </div>
                         </div>

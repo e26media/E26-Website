@@ -7,22 +7,32 @@ export default function Preloader() {
                     </div>
                     <div className="txt-loading">
                         <span data-text-preloader="X" className="letters-loading">
-                            X
+                            E
                         </span>
                         <span data-text-preloader="S" className="letters-loading">
-                            S
+                            2
                         </span>
                         <span data-text-preloader="T" className="letters-loading">
-                            T
+                            6
                         </span>
                         <span data-text-preloader="A" className="letters-loading">
-                            A
+                            M
                         </span>
                         <span data-text-preloader="R" className="letters-loading">
-                            R
+                            E
                         </span>
+                        <span data-text-preloader="R" className="letters-loading">
+                            D
+                        </span>
+                        <span data-text-preloader="R" className="letters-loading">
+                            I
+                        </span>
+                        <span data-text-preloader="R" className="letters-loading">
+                            A
+                        </span>
+                        
                     </div>
-                    <p className="text-center">Loading</p>
+                    {/* <p className="text-center">Loading</p> */}
                 </div>
                 <div className="loader">
                     <div className="row">

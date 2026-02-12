@@ -1238,11 +1238,53 @@ footer {
 }
 
 .hero-section-version1 {
-    background: url(../img/banner/hero-bg1.png) no-repeat center center;
-    background-size: cover;
+    position: relative;
     padding: 290px 5px 30px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+
+    background: 
+        linear-gradient(
+            180deg, 
+            var(--token-5bc48278-14a8-4953-b980-6953d047ffcd, rgb(234, 241, 248)) 0%, 
+            rgba(255, 255, 255, 0.4) 100%
+        ),
+        url("../img/E26media/team/IMG_3285.jpg") no-repeat center center;
+
+    background-size: cover;
+}
+
+/* Dim overlay */
+.hero-section-version1::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35); /* darker = more dim */
+    z-index: 0;
+}
+
+/* Make content stay above overlay */
+.hero-section-version1 > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* Radial mask overlay for brand tint edges */
+.hero-section-version1::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background-color: rgba(0, 79, 57, 0.8); /* brand tint */
+    mask-image: radial-gradient(circle at center, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 100%);
+      -webkit-mask-image: radial-gradient(circle at center, rgb(0 0 0 / 62%) 60%, rgba(0, 0, 0, 1) 100%);
     z-index: 1;
 }
+
 
 .hero-section-version1 .hero-arrow {
     position: absolute;

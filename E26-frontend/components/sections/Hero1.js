@@ -23,7 +23,7 @@ export default function Hero1() {
                                         <span className="designers" data-text="Agency" data-aos="zoom-in" data-aos-duration={2000}>Agency</span>
                                     </span>
                                 </h1>
-                                <VideoPopup style={1}/>
+                                {/* <VideoPopup style={1}/> */}
                             </div>
                             <div className="hero-sponsor">
                                 {/* <div className="sponsor-inner d-flex align-items-center gap-xxl-13 gap-xl-10 gap-lg-8 gap-md-6 gap-5 mb-xxl-10 mb-xl-7 mb-lg-6 mb-6">

@@ -33,7 +33,8 @@ const swiperOptions = {
 
 export default function Testimonial3() {
     return (
-        <div style={{ background: "linear-gradient(to top, #ffffff 1%, #004f39 100%)"}}>
+        <div style={{ background: "linear-gradient(to top, #ffffff2e 1%, #ddeae657 100%);"}}>
+        {/* <div style={{ background: "linear-gradient(to top, #ffffff 1%, #004f39 100%)"}}> */}
 
             <section className="testimonial-version02-section pb-space position-relative "  style={{ background: "linear-gradient(to bottom, #ffffff 1%, #004f39 100%),"}}>
                 
@@ -41,9 +42,9 @@ export default function Testimonial3() {
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="pricing-title">
                            
-                            <h2 className="stitle mt-10"  >
-                                Check Our <span className="fw-400" >Company</span>
-                                <span className="d-block fw-semibold" >
+                            <h2 className="stitle mt-10"   style={{color:'#004f39'}}>
+                                Check Our <span className="fw-400"  style={{color:'#004f39'}}>Company</span>
+                                <span className="d-block fw-semibold"   style={{color:'#004f39'}}>
                                     Inside Story
                                 </span>
                             </h2>
@@ -76,7 +77,7 @@ export default function Testimonial3() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4">
+                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4"  style={{color:'#004f39 !important'}}>
                                             Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is
                                             porta pretium metus aliquam eget maecenas porta
                                             is nunc viverra Aenean.
@@ -108,7 +109,7 @@ export default function Testimonial3() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4">
+                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4"  style={{color:'#004f39 !important'}}>
                                             Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is
                                             porta pretium metus aliquam eget maecenas porta
                                             is nunc viverra Aenean.
@@ -140,7 +141,7 @@ export default function Testimonial3() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4">
+                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4" style={{color:'#004f39 !important'}}>
                                             Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is
                                             porta pretium metus aliquam eget maecenas porta
                                             is nunc viverra Aenean.
@@ -172,7 +173,7 @@ export default function Testimonial3() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4">
+                                        <p className="pra-clr mt-xxl-8 mt-xl-6 mt-lg-5 mt-4" style={{color:'#004f39 !important'}}>
                                             Consectetur adipiscing elit. Integer is nunc viverra laoreet est the is
                                             porta pretium metus aliquam eget maecenas porta
                                             is nunc viverra Aenean.
@@ -184,6 +185,12 @@ export default function Testimonial3() {
                     </div>
                 </div>
             </section>
+            <style>
+                {`
+                p{
+                color:#004f39 !important
+                }`}
+            </style>
         </div>
     )
 }

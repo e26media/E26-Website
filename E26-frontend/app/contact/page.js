@@ -6,7 +6,62 @@ export default function Contact() {
     return (
         <>
 
-            <Layout headerStyle={2} footerStyle={2} breadcrumbTitle="Contact Us">
+            <Layout headerStyle={2} footerStyle={2} >
+                
+
+     <section 
+    className="contact-section position-relative d-flex align-items-center justify-content-center text-center" 
+    style={{
+        backgroundImage: "url('/assets/img/E26media/team/IMG_3285.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        minHeight: "70vh",
+        color: "#fff"
+    }}
+>
+    {/* Radial mask overlay */}
+    <div 
+        className="overlay position-absolute top-0 start-0 w-100 h-100" 
+        style={{
+            maskImage: "radial-gradient(80% 80%, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%)",
+            WebkitMaskImage: "radial-gradient(80% 80%, rgb(0,0,0) 0%, rgba(0,0,0,0) 100%)",
+            backgroundColor: "rgba(0,79,57,0.6)", // brand tint, slightly lighter
+            opacity: 1
+        }}
+    ></div>
+
+    {/* Content */}
+    <div className="container position-relative">
+        <h2 
+            className="mb-4" 
+            style={{color:"#fff", fontWeight:"700"}}
+        >
+            Contact Us
+        </h2>
+        <p 
+            className="mb-4" 
+            style={{color:"#fff", maxWidth:"600px", margin:"0 auto"}}
+        >
+            We’d love to hear from you. Reach out for collaborations, projects, or inquiries.
+        </p>
+        <a 
+            href="mailto:info@e26media.com" 
+            className="btn px-4 py-2" 
+            style={{
+                background:"#004f39", 
+                borderColor:"#004f39", 
+                color:"#fff", 
+                fontWeight:"600"
+            }}
+        >
+            Get in Touch
+        </a>
+    </div>
+</section>
+
+
+
+
                 <section className="contact-section pt-space pb-space" style={{background: "linear-gradient(to bottom, #ffffff 70%, #004f39 100%)"}}
 >
                     <div className="container" >

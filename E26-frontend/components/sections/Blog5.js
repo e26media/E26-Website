@@ -6,7 +6,7 @@ export default function Blog5() {
     return (
         <div className="mainbox">
 
-            <section className="home-blog-version4 pb-space pt-space  position-relative" id='roundBox'>
+            <section className="home-blog-version4 pb-space   position-relative" id='roundBox'>
                 <div className="container zindex position-relative">
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="pricing-title">
@@ -15,7 +15,7 @@ export default function Blog5() {
                             </div> */}
                             <h2 className="stitle" >
 {/* Our <span className="fw-400" >Our Services</span> */}
-                                <span className="d-block fw-semibold " >
+                                <span className="d-block fw-semibold  mt-10" >
                                     Our Services
                                 </span>
                             </h2>
@@ -32,7 +32,7 @@ export default function Blog5() {
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
                                     <img src="/assets/img/E26media/service/Website-Development.png" alt="img" className="w-100 overflow-hidden"  style={{borderRadius:'20px'}}/>
-                                    <Link href="/blog-details" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
+                                    <Link href="/" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up" style={{color:'white'}} />
                                         </span>
@@ -51,7 +51,7 @@ export default function Blog5() {
                                         </span> */}
                                     </div>
                                     <h5>
-                                        <Link href="/blog-details" id="white-clr" style={{textAlign:'center !impotent'}}>
+                                        <Link href="/" id="white-clr" style={{textAlign:'center !impotent'}}>
                                             Website Development
                                         </Link>
                                     </h5>
@@ -62,7 +62,7 @@ export default function Blog5() {
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
                                     <img src="/assets/img/E26media/service/Software Development.png" alt="img" className="w-100 overflow-hidden" style={{borderRadius:'20px'}} />
-                                    <Link href="/blog-details" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
+                                    <Link href="/" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
                                         <span className="rot60" >
                                             <i className="fa-solid fa-arrow-up"  style={{color:'white'}} />
                                         </span>
@@ -81,7 +81,7 @@ export default function Blog5() {
                                         </span> */}
                                     </div>
                                     <h5>
-                                        <Link href="/blog-details" id="white-clr" >
+                                        <Link href="/" id="white-clr" >
                                           Software Development
                                         </Link>
                                     </h5>
@@ -92,7 +92,7 @@ export default function Blog5() {
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
                                     <img src="/assets/img/E26media/service/Mobile App Development.png" alt="img" className="w-100 overflow-hidden"  style={{borderRadius:'20px'}}/>
-                                    <Link href="/blog-details" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
+                                    <Link href="/" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
                                         <span className="rot60" >
                                             <i className="fa-solid fa-arrow-up"  style={{color:'white'}} />
                                         </span>
@@ -111,7 +111,7 @@ export default function Blog5() {
                                         </span> */}
                                     </div>
                                     <h5>
-                                        <Link href="/blog-details" id="white-clr" >
+                                        <Link href="/" id="white-clr" >
                                            Mobile App Development
                                         </Link>
                                     </h5>
@@ -122,7 +122,7 @@ export default function Blog5() {
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
                                     <img src="/assets/img/E26media/service/Automation Services.png" alt="img" className="w-100 overflow-hidden" style={{borderRadius:'20px'}}/>
-                                    <Link href="/blog-details" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
+                                    <Link href="/" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
                                         <span className="rot60" >
                                             <i className="fa-solid fa-arrow-up"  style={{color:'white'}} />
                                         </span>
@@ -141,7 +141,7 @@ export default function Blog5() {
                                         </span> */}
                                     </div>
                                     <h5>
-                                        <Link href="/blog-details" id="white-clr" >
+                                        <Link href="/" id="white-clr" >
                                            Automation Services
                                         </Link>
                                     </h5>
@@ -152,7 +152,7 @@ export default function Blog5() {
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
                                     <img src="/assets/img/E26media/service/Digital Marketing.png" alt="img" className="w-100 overflow-hidden" style={{borderRadius:'20px'}} />
-                                    <Link href="/blog-details" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
+                                    <Link href="/" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
                                         <span className="rot60" >
                                             <i className="fa-solid fa-arrow-up"  style={{color:'white'}}/>
                                         </span>
@@ -171,7 +171,7 @@ export default function Blog5() {
                                         </span> */}
                                     </div>
                                     <h5>
-                                        <Link href="/blog-details" id="white-clr" >
+                                        <Link href="/" id="white-clr" >
                                           Digital Marketing
                                         </Link>
                                     </h5>
@@ -182,7 +182,7 @@ export default function Blog5() {
                             <div className="blog-widget-itemv4">
                                 <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4 position-relative">
                                     <img src="/assets/img/E26media/service/Creative Picks.png" alt="img" className="w-100 overflow-hidden"  style={{borderRadius:'20px'}} />
-                                    <Link href="/blog-details" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
+                                    <Link href="/" className="blog-v4-btn d-center" style={{backgroundColor:'#004f39',margin:'10px'}}>
                                         <span className="rot60">
                                             <i className="fa-solid fa-arrow-up"   style={{color:'white'}}/>
                                         </span>
@@ -201,7 +201,7 @@ export default function Blog5() {
                                         </span> */}
                                     </div>
                                     <h5>
-                                        <Link href="/blog-details" id="white-clr" >
+                                        <Link href="/" id="white-clr" >
                                        Creative Picks
                                         </Link>
                                     </h5>

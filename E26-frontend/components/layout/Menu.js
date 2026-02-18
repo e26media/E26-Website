@@ -64,7 +64,8 @@ export default function Menu() {
                     </Link>
                 </li>
                   <li className="menu-item position-relative">
-                    <Link href="/about" className="fw_500">
+                    <Link href="/" className="fw_500">
+                    {/* <Link href="/about" className="fw_500"> */}
                        About us
                     </Link>
                 </li>
@@ -102,23 +103,29 @@ export default function Menu() {
                     </button>
                     <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 5 ? "block" : "none"}` }}>
                         <li className="menu-link py-1">
-                            <Link href="/web-development" className="fw_500 white-clr">Website Development</Link>
+                            <Link href="/" className="fw_500 white-clr">Website Development</Link>
+                            {/* <Link href="/web-development" className="fw_500 white-clr">Website Development</Link> */}
                         </li>
                         <li className="menu-link py-1">
-                            <Link href="/service-details" className="fw_500 white-clr">Software Development</Link>
+                            <Link href="/" className="fw_500 white-clr">Software Development</Link>
+                            {/* <Link href="/service-details" className="fw_500 white-clr">Software Development</Link> */}
                         </li>
                         <li className="menu-link py-1">
-                            <Link href="/service-details" className="fw_500 white-clr">Mobile App Development</Link>
+                            <Link href="/" className="fw_500 white-clr">Mobile App Development</Link>
+                            {/* <Link href="/service-details" className="fw_500 white-clr">Mobile App Development</Link> */}
                         </li>
                       
                         <li className="menu-link py-1">
-                            <Link href="/service-details" className="fw_500 white-clr">Digital Marketing</Link>
+                            <Link href="/" className="fw_500 white-clr">Digital Marketing</Link>
+                            {/* <Link href="/service-details" className="fw_500 white-clr">Digital Marketing</Link> */}
                         </li>
                           <li className="menu-link py-1">
-                            <Link href="/service-details" className="fw_500 white-clr">Automation Services</Link>
+                            <Link href="/" className="fw_500 white-clr">Automation Services</Link>
+                            {/* <Link href="/service-details" className="fw_500 white-clr">Automation Services</Link> */}
                         </li>
                         <li className="menu-link py-1">
-                            <Link href="/service-details" className="fw_500 white-clr">Creative Picks </Link>
+                            <Link href="/" className="fw_500 white-clr">Creative Picks </Link>
+                            {/* <Link href="/service-details" className="fw_500 white-clr">Creative Picks </Link> */}
                         </li>
                     </ul>
                 </li>
@@ -145,10 +152,12 @@ export default function Menu() {
                     </button>
                     <ul className="sub-menu px-lg-4 py-xxl-3 py-2" style={{ display: `${isAccordion == 3 ? "block" : "none"}` }}>
                         <li className="menu-link py-1">
-                            <Link href="/Courses" className="fw_500 white-clr">Internship</Link>
+                            <Link href="/" className="fw_500 white-clr">Internship</Link>
+                            {/* <Link href="/Courses" className="fw_500 white-clr">Internship</Link> */}
                         </li>
                         <li className="menu-link py-1">
-                            <Link href="/Courses" className="fw_500 white-clr">Courses</Link>
+                            <Link href="/" className="fw_500 white-clr">Courses</Link>
+                            {/* <Link href="/Courses" className="fw_500 white-clr">Courses</Link> */}
                         </li>
                         <li className="menu-link py-1">
                             <Link href="/Career" className="fw_500 white-clr">Career</Link>
@@ -161,14 +170,20 @@ export default function Menu() {
                     </Link>
                 </li> */}
                  <li className="menu-item position-relative">
-                    <Link href="/works" className="fw_500">
+                    <Link href="/" className="fw_500">
                         Portfolio
                     </Link>
+                    {/* <Link href="/works" className="fw_500">
+                        Portfolio
+                    </Link> */}
                 </li>
                  <li className="menu-item position-relative">
-                    <Link href="/blog-grid" className="fw_500">
+                    <Link href="/" className="fw_500">
                         Blog
                     </Link>
+                    {/* <Link href="/blog-grid" className="fw_500">
+                        Blog
+                    </Link> */}
                 </li>
                 {/* <li className="menu-item position-relative">
                     <button className="position-relative  ps-5 fw_500 white-clr cus-z1" onClick={() => handleAccordion(4)}>

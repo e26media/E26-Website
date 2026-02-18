@@ -56,45 +56,31 @@ export default function OurPartner() {
                             <div className="swiper trusted-inner">
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
                                     <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/1.png" alt="img" />
+                                        <Link href="/">
+                                            <img src="/assets/img/E26media/partner/1.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/2.png" alt="img" />
+                                        <Link href="/">
+                                            <img src="/assets/img/E26media/partner/2.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/3.png" alt="img" />
+                                        <Link href="/">
+                                            <img src="/assets/img/E26media/partner/3.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/4.png" alt="img" />
+                                        <Link href="/">
+                                            <img src="/assets/img/E26media/partner/4.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/5.png" alt="img" />
+                                        <Link href="/">
+                                            <img src="/assets/img/E26media/partner/5.png" alt="img" />
                                         </Link>
                                     </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/6.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/7.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <Link href="/javascript:void(0)">
-                                            <img src="/assets/img/E26media/clints/8.png" alt="img" />
-                                        </Link>
-                                    </SwiperSlide>
+                                   
                                    
                                 </Swiper>
                             </div>
@@ -111,7 +97,7 @@ export default function OurPartner() {
   .footer-client {
   border: none !important}
 
-  
+ 
   `}
 </style>
         

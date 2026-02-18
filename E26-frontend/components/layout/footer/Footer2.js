@@ -210,7 +210,7 @@ export default function Footer2() {
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/about" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                                    <Link href="/" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                         <span className="ani-icons">
                                                             <i className="fas fa-angle-double-right pra-clr" />
                                                         </span>
@@ -218,7 +218,7 @@ export default function Footer2() {
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/Courses" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                                    <Link href="/" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                         <span className="ani-icons">
                                                             <i className="fas fa-angle-double-right pra-clr" />
                                                         </span>

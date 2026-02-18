@@ -1418,7 +1418,8 @@ footer {
 
 .hero-v1-content h1 .designers {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--theme);
+    -webkit-text-stroke-color: white;
+    /* -webkit-text-stroke-color: var(--theme); */
     color: transparent;
     transition: all 0.5s;
     position: relative;

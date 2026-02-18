@@ -20,10 +20,11 @@ export default function Courses() {
                                 src="/assets/img/E26media/ourmentor/1.png"
                                 alt="Advanced MERN Stack Development with AI"
                                 className="w-100"
+                                style={{borderRadius:'10px'}}
                             />
                             <div className="course-info text-center p-3">
-                                <h6 className="mb-2">Advanced MERN Stack <br/> Development with AI</h6>
-                                <span className="d-block mb-3">8 Months | Offline</span>
+                                <h6 className="mb-2" style={{color:'#004f39',fontSize:'16px'}}>Advanced MERN Stack <br/> Development with AI</h6>
+                                <span className="d-block mb-3" style={{color:'#004f39',fontSize:'16px'}}>8 Months | Offline</span>
                                 <Link href="/enquire" className="btn ">Enquire Now</Link>
                             </div>
                         </div>
@@ -36,10 +37,11 @@ export default function Courses() {
                                 src="/assets/img/E26media/ourmentor/2.png"
                                 alt="Advanced Flutter Mobile App Development with AI"
                                 className="w-100"
+                                style={{borderRadius:'10px'}}
                             />
                             <div className="course-info text-center p-3">
-                                <h6 className="mb-2">Advanced Flutter Mobile App Development with AI</h6>
-                                <span className="d-block mb-3">4 Months | Offline</span>
+                                <h6 className="mb-2" style={{color:'#004f39',fontSize:'16px'}}>Advanced Flutter Mobile App Development with AI</h6>
+                                <span className="d-block mb-3" style={{color:'#004f39',fontSize:'16px'}}>4 Months | Offline</span>
                                 <Link href="/enquire" className="btn">Enquire Now</Link>
                             </div>
                         </div>
@@ -52,10 +54,11 @@ export default function Courses() {
                                 src="/assets/img/E26media/ourmentor/3.png"
                                 alt="Advanced Data Analytics with AI"
                                 className="w-100"
+                                style={{borderRadius:'10px'}}
                             />
                             <div className="course-info text-center p-3">
-                                <h6 className="mb-2">Advanced Data Analytics with AI</h6>
-                                <span className="d-block mb-3">5 Months | Offline</span>
+                                <h6 className="mb-2" style={{color:'#004f39',fontSize:'16px'}}>Advanced Data Analytics with AI</h6>
+                                <span className="d-block mb-3" style={{color:'#004f39',fontSize:'16px'}}>5 Months | Offline</span>
                                 <Link href="/enquire" className="btn ">Enquire Now</Link>
                             </div>
                         </div>
@@ -66,10 +69,11 @@ export default function Courses() {
                                 src="/assets/img/E26media/ourmentor/4.png"
                                 alt="Advanced Data Analytics with AI"
                                 className="w-100"
+                                style={{borderRadius:'10px'}}
                             />
                             <div className="course-info text-center p-3">
-                                <h6 className="mb-2">Advanced Data Analytics with AI</h6>
-                                <span className="d-block mb-3">5 Months | Offline</span>
+                                <h6 className="mb-2" style={{color:'#004f39',fontSize:'16px'}}>Advanced Data Analytics with AI</h6>
+                                <span className="d-block mb-3" style={{color:'#004f39',fontSize:'16px'}}>5 Months | Offline</span>
                                 <Link href="/enquire" className="btn ">Enquire Now</Link>
                             </div>
                         </div>

@@ -4,7 +4,7 @@ export default function About4() {
     return (
         <>
 
-             <section className="pt-space pb-space " style={{backgroundColor:'white'}}>
+             <section className="pt-space pb-space " style={{backgroundColor:'white',marginTop:'-30px'}}>
                         <div className="container">
                             <div className="row g-6 justify-content-between">
                                 <div className="col-lg-6 pe-lg-14">

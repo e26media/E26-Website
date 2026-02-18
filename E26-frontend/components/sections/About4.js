@@ -10,7 +10,7 @@ export default function About4() {
                                 <div className="col-lg-6 pe-lg-14">
                                     <div className="d-flex gap-xxl-7 gap-xl-5 gap-4 position-relative z-index-1">
                                         <div className="about-small-thumb w-100" data-aos="zoom-in" data-aos-duration={1500}>
-                                            <img src="/assets/img/about/about-s1.png" alt="img" className="w-100" />
+                                            <img src="/assets/img/E26media/team/aboutpage.png" alt="img" className="w-100" />
                                         </div>
                                         <div className="about-small-thumb w-100 mt-xxl-10 mt-xl-7 mt-lg-5 mt-3" data-aos="zoom-in" data-aos-duration={1800}>
                                             <img src="/assets/img/about/about-s2.png" alt="img" className="w-100" />

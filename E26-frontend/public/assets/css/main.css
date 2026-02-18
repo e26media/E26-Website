@@ -2283,6 +2283,16 @@ footer {
     /* border: #004f39 1px solid;
     border-radius: 2px; */
 }
+.protfolio-solution-item .thumb { 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+    border-radius: 8px; /* optional for smoother edges */
+     overflow: hidden; /* ensures shadow respects rounded corners */ } 
+     .protfolio-solution-item .content { 
+        box-shadow: 0 4px 12px rgba(0, 79, 57, 0.25);
+         /* subtle brand-colored shadow */ 
+         border-radius: 6px; padding: 1rem; 
+         background-color: #ffffff0d; 
+         /* keeps it light but visible */ }
 
 .protfolio-solution-item .thumb .mission-v4-btn {
     width: 80px;
@@ -2293,6 +2303,7 @@ footer {
     position: absolute;
     right: 0;
     bottom: 0;
+        border: 2px solid #ffffff;
 }
 
 .protfolio-solution-item .thumb .mission-v4-btn i {
@@ -3627,7 +3638,8 @@ input.main-search-input::placeholder {
     width: 44px;
     min-width: 44px;
     height: 44px;
-    background: #1d1d1d;
+    /* background: #1d1d1d; */
+    background: #004f39;
     border-radius: 50%;
 }
 
@@ -3674,7 +3686,8 @@ input.main-search-input::placeholder {
 .service-tabing-wrap .accordion-single.active .accordion-btn::after {
     content: "\f068";
     font-family: "FontAwesome";
-    color: var(--theme);
+    color: white;
+    background-color: #004f39;
 }
 
 .service-tabing-wrap .accordion-single.active .accordion-btn::after:hover {
@@ -5547,12 +5560,25 @@ input.main-search-input::placeholder {
     border-radius: 20px;
   }
 }
+@media (max-width: 768px) {
+  #textslider {
+   margin-bottom: 30px;
+  }
+}
 .mainbox{
     background-color: white !important;
     margin-top: -30px;
 }
 #conssub{
     color:#004f39 !important;
+}
+
+
+#challenge-thumb{
+     box-shadow: 10px 14px 12px rgba(0, 79, 57, 0.25);
+         /* subtle brand-colored shadow */ 
+         border-radius: 16px; 
+         /* padding: 1rem;  */
 }
 
 /*# sourceMappingURL=main.css.map */

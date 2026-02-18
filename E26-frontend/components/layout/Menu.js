@@ -110,14 +110,15 @@ export default function Menu() {
                         <li className="menu-link py-1">
                             <Link href="/service-details" className="fw_500 white-clr">Mobile App Development</Link>
                         </li>
-                        <li className="menu-link py-1">
-                            <Link href="/service-details" className="fw_500 white-clr">Automation Services</Link>
-                        </li>
+                      
                         <li className="menu-link py-1">
                             <Link href="/service-details" className="fw_500 white-clr">Digital Marketing</Link>
                         </li>
+                          <li className="menu-link py-1">
+                            <Link href="/service-details" className="fw_500 white-clr">Automation Services</Link>
+                        </li>
                         <li className="menu-link py-1">
-                            <Link href="/service-details" className="fw_500 white-clr">Content, Creative & Design</Link>
+                            <Link href="/service-details" className="fw_500 white-clr">Creative Picks </Link>
                         </li>
                     </ul>
                 </li>

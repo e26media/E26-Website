@@ -7,7 +7,7 @@ export default function Courses() {
         <section className="courses-section pb-space">
             <div className="container">
                 <div className="d-flex align-items-center justify-content-between gap-3 mb-4">
-                    <h3 className="related-title white-clr">Courses We Offer</h3>
+                    <h3 className=" white-clr " style={{textAlign:'center'}}>Courses We Offer</h3>
                 </div>
 
                 {/* One row with 5 cards */}
@@ -17,14 +17,14 @@ export default function Courses() {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="course-card shadow-lg rounded overflow-hidden h-100">
                             <img
-                                src="https://harisandcoacademy.com/wp-content/uploads/2025/06/Mern-Neha.png"
+                                src="/assets/img/E26media/ourmentor/1.png"
                                 alt="Advanced MERN Stack Development with AI"
                                 className="w-100"
                             />
                             <div className="course-info text-center p-3">
-                                <h6 className="mb-2">Advanced MERN Stack Development with AI</h6>
+                                <h6 className="mb-2">Advanced MERN Stack <br/> Development with AI</h6>
                                 <span className="d-block mb-3">8 Months | Offline</span>
-                                <Link href="/enquire" className="btn btn-primary">Enquire Now</Link>
+                                <Link href="/enquire" className="btn ">Enquire Now</Link>
                             </div>
                         </div>
                     </div>
@@ -33,14 +33,14 @@ export default function Courses() {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="course-card shadow-lg rounded overflow-hidden h-100">
                             <img
-                                src="https://harisandcoacademy.com/wp-content/uploads/2025/06/Mern-Neha.png"
+                                src="/assets/img/E26media/ourmentor/2.png"
                                 alt="Advanced Flutter Mobile App Development with AI"
                                 className="w-100"
                             />
                             <div className="course-info text-center p-3">
                                 <h6 className="mb-2">Advanced Flutter Mobile App Development with AI</h6>
                                 <span className="d-block mb-3">4 Months | Offline</span>
-                                <Link href="/enquire" className="btn btn-primary">Enquire Now</Link>
+                                <Link href="/enquire" className="btn">Enquire Now</Link>
                             </div>
                         </div>
                     </div>
@@ -49,28 +49,28 @@ export default function Courses() {
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="course-card shadow-lg rounded overflow-hidden h-100">
                             <img
-                                src="https://harisandcoacademy.com/wp-content/uploads/2025/06/Mern-Neha.png"
+                                src="/assets/img/E26media/ourmentor/3.png"
                                 alt="Advanced Data Analytics with AI"
                                 className="w-100"
                             />
                             <div className="course-info text-center p-3">
                                 <h6 className="mb-2">Advanced Data Analytics with AI</h6>
                                 <span className="d-block mb-3">5 Months | Offline</span>
-                                <Link href="/enquire" className="btn btn-primary">Enquire Now</Link>
+                                <Link href="/enquire" className="btn ">Enquire Now</Link>
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 col-sm-6">
                         <div className="course-card shadow-lg rounded overflow-hidden h-100">
                             <img
-                                src="https://harisandcoacademy.com/wp-content/uploads/2025/06/Mern-Neha.png"
+                                src="/assets/img/E26media/ourmentor/4.png"
                                 alt="Advanced Data Analytics with AI"
                                 className="w-100"
                             />
                             <div className="course-info text-center p-3">
                                 <h6 className="mb-2">Advanced Data Analytics with AI</h6>
                                 <span className="d-block mb-3">5 Months | Offline</span>
-                                <Link href="/enquire" className="btn btn-primary">Enquire Now</Link>
+                                <Link href="/enquire" className="btn ">Enquire Now</Link>
                             </div>
                         </div>
                     </div>
@@ -80,6 +80,26 @@ export default function Courses() {
 
                     {/* Card 5 */}
                     
+
+
+                    <style>
+                        {
+                            `.btn{
+                            background-color: #004f39 !important;
+                            padding: 10px !important;
+                            color:white
+                            }
+                            // h6{
+                            // color:#004f39;
+                            // font-size: 16px!important;
+                            // }
+                            // span{
+                            // color:#004f39;
+                            // font-size: 16px!important;
+                            // }
+                            `
+                        }
+                    </style>
 
                 </div>
             </div>

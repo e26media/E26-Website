@@ -1,6 +1,172 @@
 import Link from "next/link"
+import { useEffect, useState } from "react"
 
 export default function Footer2() {
+    
+  const [isMounted, setIsMounted] = useState(false)
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        contact: '',
+        subject: 'Services',
+        specificService: '',
+        message: ''
+    })
+
+    const [isSubmitting, setIsSubmitting] = useState(false)
+    const [submitStatus, setSubmitStatus] = useState(null)
+
+    useEffect(() => {
+        setIsMounted(true)
+    }, [])
+
+    // Subject options with categories
+    const subjectOptions = {
+        Services: [
+            'Web Development',
+            'Mobile App Development',
+            'Digital Marketing',
+            'UI/UX Design',
+            'Automation'
+        ],
+        Internship: [
+            'Data Science Internship',
+            'Data Analytics Internship',
+            'Digital Marketing Internship',
+            'Full Stack Developer',
+            'Devops',
+            'Graphic Design',
+            'Videography and Production'
+        ], 
+        Courses: [
+            'Digital Marketing Course',
+            'Data Science Course',
+            'Data Analytics Course',
+            'Full Stack Developer',
+            'Videography and Production'
+        ],
+        "Academic Project": [
+            'Data Science Projects',
+            'Data Analytics Projects',
+            'Machine Learning Projects',
+            'Full Stack Projects',
+        ],
+        WorkShop: [
+            'For Student',
+            'For Corporates',
+            'For Faculties',
+        ],
+        Other: ['General Inquiry', 'Career', 'Feedback', 'Others']
+    }
+
+    // Handle input changes
+    const handleInputChange = (e) => {
+        const { name, value } = e.target
+        setFormData(prev => ({
+            ...prev,
+            [name]: value
+        }))
+    }
+
+    // Handle subject change
+    const handleSubjectChange = (e) => {
+        setFormData(prev => ({
+            ...prev,
+            subject: e.target.value,
+            specificService: ''
+        }))
+    }
+
+    // Handle form submission to Google Sheets
+    const handleSubmit = async (e) => {
+        e.preventDefault()
+        setIsSubmitting(true)
+        setSubmitStatus(null)
+
+        try {
+            // Google Apps Script Web App URL (you'll get this from Step 3)
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzx7JNe9uRJFX0UA6GXbhr04mD4aeGXMxj0EiH236zA7sodlQqSSDf7k0jZrX4pCE6p/exec'
+            
+            // Prepare data for Google Sheets
+            const formDataToSend = {
+                timestamp: new Date().toLocaleString('en-IN', { 
+                    timeZone: 'Asia/Kolkata',
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: true
+                }),
+                name: formData.name,
+                email: formData.email,
+                contact: formData.contact,
+                subject: formData.subject,
+                specificService: formData.specificService || 'Not specified',
+                message: formData.message
+            }
+
+            // Send data to Google Sheets
+            const response = await fetch(scriptURL, {
+                method: 'POST',
+                mode: 'no-cors', // This is important for Google Apps Script
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams(formDataToSend)
+            })
+
+            // Since we're using no-cors, we can't check response status
+            // Assume success if no error is thrown
+            setSubmitStatus({
+                type: 'success',
+                message: 'Thank you! Your message has been sent successfully.'
+            })
+            
+            // Reset form
+            setFormData({
+                name: '',
+                email: '',
+                contact: '',
+                subject: 'Services',
+                specificService: '',
+                message: ''
+            })
+
+        } catch (error) {
+            console.error('Form submission error:', error)
+            setSubmitStatus({
+                type: 'error',
+                message: 'Failed to send message. Please try again later.'
+            })
+        } finally {
+            setIsSubmitting(false)
+            setTimeout(() => setSubmitStatus(null), 5000)
+        }
+    }
+
+    // Get specific options based on selected subject
+    const getSpecificOptions = () => {
+        switch(formData.subject) {
+            case 'Services':
+                return subjectOptions.Services
+            case 'Internship':
+                return subjectOptions.Internship
+            case 'Academic Project':
+                return subjectOptions["Academic Project"]
+            case 'Courses':
+                return subjectOptions.Courses
+            case 'WorkShop':
+                return subjectOptions.WorkShop
+            case 'Other':
+                return subjectOptions.Other
+            default:
+                return subjectOptions.Services
+        }
+    }
+
+
+
     return (
         <section style={{backgroundColor:'white'}}>
 
@@ -36,29 +202,30 @@ export default function Footer2() {
                                             </h5>
                                             <ul className="link-footer d-grid gap-xxl-5 gap-4" data-aos="zoom-in" data-aos-duration={1400}>
                                                 <li>
+                                                    <Link href="/" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                                        <span className="ani-icons">
+                                                            <i className="fas fa-angle-double-right pra-clr" />
+                                                        </span>
+                                                        Home
+                                                    </Link>
+                                                </li>
+                                                <li>
                                                     <Link href="/about" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                         <span className="ani-icons">
                                                             <i className="fas fa-angle-double-right pra-clr" />
                                                         </span>
-                                                        About Xstar
+                                                       About us
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                                    <Link href="/Courses" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                         <span className="ani-icons">
                                                             <i className="fas fa-angle-double-right pra-clr" />
                                                         </span>
-                                                        Our Services
+                                                       Courses
                                                     </Link>
                                                 </li>
-                                                <li>
-                                                    <Link href="/blog-grid" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                        <span className="ani-icons">
-                                                            <i className="fas fa-angle-double-right pra-clr" />
-                                                        </span>
-                                                        Our Blogs
-                                                    </Link>
-                                                </li>
+                                               
                                                 <li>
                                                     <Link href="/contact" className="d-flex align-items-center gap-2 flink-items pra-clr">
                                                         <span className="ani-icons">
@@ -83,14 +250,21 @@ export default function Footer2() {
                                                 </svg>
                                             </h5>
                                             <p className="pra-clr mb-xxl-7 mb-xl-6 mb-6" data-aos="zoom-in" data-aos-duration={1400}>
-                                                4517 Washington. mg Manchester, Kentucky 39495
+                                                5th Floor, Shalimar Complex,
+                                                Near Old Ganes Medical,
+                                                Kankanady, Mangalore - 575002
                                             </p>
                                             <span className="d-block" data-aos="zoom-in" data-aos-duration={1600}>
                                                 <span className="fw-bold white-clr mb-xxl-3 mb-2 d-block" style={{color:"white"}}>
                                                     Phone Call:
                                                 </span>
                                                 <span className="pra-clr">
-                                                    208-6666-0112, 308-5555-0113
+                                                 <a href="https://wa.me/917337753124" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+                                                +91 733 775 3124 
+                                            </a><br/>
+                                                 <a href="https://wa.me/918495901407" target="_blank" rel="noopener noreferrer" style={{ color: 'white', textDecoration: 'none' }}>
+                                                +91 849 590 1407
+                                            </a>
                                                 </span>
                                             </span>
                                         </div>

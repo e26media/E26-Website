@@ -39,6 +39,7 @@ export default function Home() {
                 <Ourclints2/>
                    <About4/>
                     <Blog5 />
+                      <TextSLider7/>
                     <Testimonial3 />
 
 
@@ -47,7 +48,7 @@ export default function Home() {
                     <TextSLider7 />
                     {/* <CaseStudy1 /> */}
                     {/* <Watch1 /> */}
-                    <Team1 />
+                    {/* <Team1 /> */}
                     <Internship/>
                     <OurPartner/>
                     {/* <TextSLider2 /> */}

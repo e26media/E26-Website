@@ -14,7 +14,7 @@ const toltOptions = {
     easing: "cubic-bezier(.03,.98,.52,.99)",
 }
 
-export default function Team1() {
+export default function  Team1() {
     return (
         <>
 
